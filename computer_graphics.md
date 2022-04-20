@@ -1,3 +1,3 @@
 # Video Series
 
-[Lights and Shadows in Graphics - Computerphile](https://www.youtube.com/watch?v=LUjXAoP5GG0)
+[Triangles and Pixels - Computerphile](https://www.youtube.com/playlist?list=PLzH6n4zXuckrPkEUK5iMQrQyvj9Z6WCrm)

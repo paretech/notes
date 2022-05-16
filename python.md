@@ -18,3 +18,9 @@
 ## OpenGL
 - Get into Game Development with Python and OpenGL ([YouTube Playlist](https://www.youtube.com/playlist?list=PLn3eTxaOtL2PDnEVNwOgZFm5xYPr4dUoR), [GitHub Source](https://github.com/amengede/getIntoGameDev/tree/main/pyopengl))
 - [Python & OpenGL for Scientific Visualization (book, author of Glumpy)](https://www.labri.fr/perso/nrougier/python-opengl/)
+
+## Numpy
+
+### Structured Arrays
+- [NumPy Structured Arrays](https://numpy.org/doc/stable/user/basics.rec.html) (documentation, NumPy)
+- [Python Data Science Handbook - Structured Data](https://jakevdp.github.io/PythonDataScienceHandbook/02.09-structured-data-numpy.html) (book, Jake VanderPlas)

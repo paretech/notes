@@ -3,3 +3,6 @@
 - Com0Com
 - TeraTerm
 - Putty
+
+# Color Calibration
+- argyllcms

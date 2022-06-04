@@ -25,3 +25,8 @@
 ### Structured Arrays
 - [NumPy Structured Arrays](https://numpy.org/doc/stable/user/basics.rec.html) (documentation, NumPy)
 - [Python Data Science Handbook - Structured Data](https://jakevdp.github.io/PythonDataScienceHandbook/02.09-structured-data-numpy.html) (book, Jake VanderPlas)
+
+## Productivity
+
+### Start a new Python CLI Project
+- cookiecutter https://github.com/nvie/cookiecutter-python-cli.git

@@ -16,3 +16,7 @@
 - [Syncthing](https://syncthing.net/)
 - [STB](https://github.com/nothings/stb)
 - [Asana](https://asana.com/)
+- [Roam](https://roamresearch.com/) - A note taking, knowledge graph tool
+- [Obsidian](https://obsidian.md/) - A note taking, knowledge graph tool
+- [Athens](https://github.com/athensresearch/athens) - No longer maintained, note taking, knowledge graph tool
+- [Foam](https://github.com/foambubble/foam) - note taking, knowledge graph tool using VS Code

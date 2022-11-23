@@ -21,3 +21,4 @@
 - [Athens](https://github.com/athensresearch/athens) - No longer maintained, note taking, knowledge graph tool
 - [Foam](https://github.com/foambubble/foam) - note taking, knowledge graph tool using VS Code
 - [Logseq](https://logseq.com/)
+- [Notion](https://www.notion.so/)

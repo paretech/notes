@@ -22,3 +22,4 @@
 - [Foam](https://github.com/foambubble/foam) - note taking, knowledge graph tool using VS Code
 - [Logseq](https://logseq.com/)
 - [Notion](https://www.notion.so/)
+- https://repology.org/

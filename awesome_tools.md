@@ -24,3 +24,4 @@
 - [Notion](https://www.notion.so/)
 - https://repology.org/
 - https://learn.microsoft.com/en-us/sysinternals/downloads/handle
+  - determine which process is holding a file

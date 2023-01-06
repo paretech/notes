@@ -25,3 +25,5 @@
 - https://repology.org/
 - https://learn.microsoft.com/en-us/sysinternals/downloads/handle
   - determine which process is holding a file
+- [Valgrind](https://valgrind.org/) is a programming tool for memory debugging, memory leak detection, and profiling.
+  - 

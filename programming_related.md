@@ -1,3 +1,3 @@
-- https://www.cs.utexas.edu/users/novak/units95.html
-  - Unit conversion
-  
+- Unit Conversion
+  - https://www.cs.utexas.edu/users/novak/units95.html
+  - https://sites.google.com/site/computersciencesourcecode/conversion-algorithms/convert-units---generic  

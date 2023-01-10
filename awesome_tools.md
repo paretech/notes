@@ -27,3 +27,4 @@
   - determine which process is holding a file
 - [Valgrind](https://valgrind.org/) is a programming tool for memory debugging, memory leak detection, and profiling.
 - https://github.com/farrokhi/dnsdiag
+- [Intel vTune](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html#gs.m96c0v) Performance Analysis for Applications & Systems

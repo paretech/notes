@@ -30,3 +30,4 @@
 - [Intel vTune](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html#gs.m96c0v) Performance Analysis for Applications & Systems
 - [Ray Optics](https://phydemo.app/ray-optics/) Good for STEM outreach, maybe more.
 - [CodePen.io](https://codepen.io/) is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+- [libigl](https://libigl.github.io/) is a simple C++ geometry processing library. 

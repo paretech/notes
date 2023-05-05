@@ -32,3 +32,4 @@
 - [CodePen.io](https://codepen.io/) is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
 - [libigl](https://libigl.github.io/) is a simple C++ geometry processing library. 
 - [AutoHotKey](https://www.autohotkey.com/)
+- [Python C Foreign Function Interface (CFFI) Module](https://cffi.readthedocs.io/en/latest/)

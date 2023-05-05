@@ -33,3 +33,4 @@
 - [libigl](https://libigl.github.io/) is a simple C++ geometry processing library. 
 - [AutoHotKey](https://www.autohotkey.com/)
 - [Python C Foreign Function Interface (CFFI) Module](https://cffi.readthedocs.io/en/latest/)
+- [Godbold Compiler Explorer](https://godbolt.org/)

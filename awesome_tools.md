@@ -34,3 +34,5 @@
 - [AutoHotKey](https://www.autohotkey.com/)
 - [Python C Foreign Function Interface (CFFI) Module](https://cffi.readthedocs.io/en/latest/)
 - [Godbold Compiler Explorer](https://godbolt.org/)
+- https://github.com/eclipse/paho.mqtt.python
+- https://github.com/eclipse/mosquitto

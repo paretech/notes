@@ -43,3 +43,7 @@
 - https://github.com/eclipse/paho.mqtt.python
 - https://github.com/eclipse/mosquitto
 - https://www.entechtaiwan.com/util/moninfo.shtm
+- https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/collect-data-using-network-monitor
+- https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/september/core-os-events-in-windows-7-part-1
+- https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
+- https://learn.microsoft.com/en-us/message-analyzer/installing-and-upgrading-message-analyzer

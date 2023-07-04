@@ -1,0 +1,24 @@
+# Psychtoolbox
+
+## Image Pipeline
+
+"Hook chains are per onscreen window, so each window can have a different
+configuration and enable state."
+
+See 'help PsychGLImageprocessing', "Its way to complex to use it by guessing ;)"
+
+### Frequently Used Commands
+
+*List all hook names*
+Screen('HookFunction', [], 'ListAll')
+
+*List all hook names for winPtr*
+Screen('HookFunction', winPtr, 'ListAll')
+
+Screen('HookFunction', winPtr, 'Query', <hook_name>, 'ListAll')
+
+Screen('HookFunction', winPtr, 'DumpAll')
+
+Resources
+- https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/master/Psychtoolbox/PsychDocumentation/PTBTutorial-ECVP2013.pdf
+- https://psychtoolbox.discourse.group/t/how-to-properly-use-pipeline-to-apply-spatial-x-y-offsets-to-dual-stereo-displays-haploscope/4604/10

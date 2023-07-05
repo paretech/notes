@@ -22,8 +22,32 @@ MATLAB typically does not allow you to use named arguments. There are some excep
   SetStereoSideBySideParametersTemp(sCell{:});
 ```
 
+### Generic "init" script
+Save 
+```MATLAB
+%% Get base directory
+baseDirectory = fileparts(which(mfilename('fullpath')));
+
+%% Temporarily add namespace package to MATLAB path
+addpath(baseDirectory);
+
+%% Temporarily add third-party libraries to MATLAB path
+% This will add all files in "third-party" directory to path
+addpath(genpath(fullfile(baseDirectory, "third-party")));
+
+% Alternatively, add each individual directory.
+% addpath(fullfile(baseDirectory, "third-party/advancedLogger"));
+% addpath(fullfile(baseDirectory, "third-party/txtmenu"));
+
+% Temporarily add test directory to MATLAB path
+addpath(genpath(fullfile(baseDirectory, "tests")));
+
+% Temporarily add examples to MATLAB path
+addpath(genpath(fullfile(baseDirectory, "examples")));
+```
+
 ## Third Party
 
 - [Advanced Logger](https://www.mathworks.com/matlabcentral/fileexchange/87322-advanced-logger-for-matlab)
 - [TxtMenu](https://www.mathworks.com/matlabcentral/fileexchange/28285-txtmenu-text-based-menu-for-the-command-window?s_tid=FX_rc1_behav)
-- 
+

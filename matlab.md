@@ -21,3 +21,9 @@ MATLAB typically does not allow you to use named arguments. There are some excep
   
   SetStereoSideBySideParametersTemp(sCell{:});
 ```
+
+## Third Party
+
+- [Advanced Logger](https://www.mathworks.com/matlabcentral/fileexchange/87322-advanced-logger-for-matlab)
+- [TxtMenu](https://www.mathworks.com/matlabcentral/fileexchange/28285-txtmenu-text-based-menu-for-the-command-window?s_tid=FX_rc1_behav)
+- 

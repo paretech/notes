@@ -25,6 +25,8 @@ MATLAB typically does not allow you to use named arguments. There are some excep
 ### Generic "init" script
 Save the following to a script named `init.m` at the base of project code (i.e. same level as any namespace packages). Add call to `savepath()` at end of `init.m` to make path additions persistent. 
 
+The method of adding all directories in folder is nice, but sometimes overreaching. For example, many third party modules have documents, examples and other things. Using the generic method will place all these on the global path which may have undesired side effects. For more control, simply add the top level of each third-party module.
+
 ```MATLAB
 %% Get base directory
 baseDirectory = fileparts(which(mfilename('fullpath')));

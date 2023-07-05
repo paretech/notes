@@ -23,7 +23,8 @@ MATLAB typically does not allow you to use named arguments. There are some excep
 ```
 
 ### Generic "init" script
-Save 
+Save the following to a script named `init.m` at the base of project code (i.e. same level as any namespace packages). Add call to `savepath()` at end of `init.m` to make path additions persistent. 
+
 ```MATLAB
 %% Get base directory
 baseDirectory = fileparts(which(mfilename('fullpath')));

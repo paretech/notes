@@ -1,3 +1,5 @@
+- C++
+  - https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
 - Unit Conversion
   - https://www.cs.utexas.edu/users/novak/units95.html
   - https://sites.google.com/site/computersciencesourcecode/conversion-algorithms/convert-units---generic  

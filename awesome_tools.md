@@ -1,3 +1,6 @@
+# Editors
+- [HxD - Freeware Hex Editor and Disk Editor](https://mh-nexus.de/en/hxd/)
+
 # Serial and "COM" ports
 - VSPE
 - Com0Com

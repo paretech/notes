@@ -19,6 +19,10 @@
 # Office Furnishings
 - [Seville Classics airLIFT® XL Pneumatic Sit-Stand Mobile Desk Cart](https://www.sevilleclassics.com/collections/airlift%C2%AE-ergonomic-solutions/products/airlift-r-large-mobile-desks?variant=39527029997726)
 
+# Windows Development Tools
+- [MSYS2 Software Distribution and Building Platform for Windows](https://www.msys2.org/). Native builds for GCC.
+
+- 
 # Unsorted
 - [Problem Step Recorder (PSR)](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47)
 - [explainshell.com](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47) decompose a command's arguments from documentation

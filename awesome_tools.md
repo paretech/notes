@@ -20,7 +20,7 @@
 - [Seville Classics airLIFT® XL Pneumatic Sit-Stand Mobile Desk Cart](https://www.sevilleclassics.com/collections/airlift%C2%AE-ergonomic-solutions/products/airlift-r-large-mobile-desks?variant=39527029997726)
 
 # Windows Development Tools
-- [MSYS2 Software Distribution and Building Platform for Windows](https://www.msys2.org/). Native builds for GCC.
+- [MSYS2](https://www.msys2.org/) Provides Software Distribution and Building Platform for Windows (includes GCC).
 
 
 # Unsorted

@@ -57,3 +57,4 @@
 - https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/september/core-os-events-in-windows-7-part-1
 - https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
 - https://learn.microsoft.com/en-us/message-analyzer/installing-and-upgrading-message-analyzer
+- https://www.capitalone.com/tech/open-source/view-sequence-diagrams-better/

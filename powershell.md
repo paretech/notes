@@ -9,3 +9,20 @@ $dirName = [io.path]::GetFileName($relDirPath)
 $timeStamp = $(get-date -f yyyy-MM-ddTHHMMss)
 Compress-Archive $relDirPath "$($timeStamp) $($dirName)"
 ```
+
+## Extract all Zip files in folder (in parallel)
+
+```
+Get-ChildItem -Path .\ -Filter *.zip | ForEach-Object -Parallel {Expand-Archive $_}
+```
+
+See also https://devblogs.microsoft.com/powershell/powershell-foreach-object-parallel-feature/
+
+
+## Find Files with Size Greater Than
+
+```
+Get-ChildItem 'E:\music_smaller\' -recurse | Where-Object {$_.length -gt 20*1024*1024} | Sort-Object length | Format-Table FullName, Size
+```
+
+For more tips on finding things, see Doctor Scripto's blog post, https://devblogs.microsoft.com/scripting/use-windows-powershell-to-search-for-files/

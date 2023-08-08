@@ -54,3 +54,16 @@ addpath(genpath(fullfile(baseDirectory, "examples")));
 - [Advanced Logger](https://www.mathworks.com/matlabcentral/fileexchange/87322-advanced-logger-for-matlab)
 - [TxtMenu](https://www.mathworks.com/matlabcentral/fileexchange/28285-txtmenu-text-based-menu-for-the-command-window?s_tid=FX_rc1_behav)
 
+# Copy Command Output to Clipboard
+```
+function clip(command)
+    % Copy output of command to clipboard.
+    commandOutput = evalc(command);
+
+    commandAndOutput = strjoin({command, commandOutput}, '\n');
+    clipboard('copy', commandAndOutput);
+
+    disp(commandOutput);
+end
+```
+

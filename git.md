@@ -42,7 +42,9 @@ From <https://www.atlassian.com/git/tutorials/git-forks-and-upstreams>
 # Securely remove file
 See GitHub documentation for [Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository).
 
-Be warned, [`git-filter-repo` will remove remotes](https://github.com/newren/git-filter-repo/issues/46) in the process. See  for additional details.
+Be warned, [`git-filter-repo` will remove remotes](https://github.com/newren/git-filter-repo/issues/46) in the process.
+
+If running on Windows, becareful with `PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA`. It may fail silently. Always confirm files actually removed.
 
 ```
 python git-filter-repo.py --invert-paths --path PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA

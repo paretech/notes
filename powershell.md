@@ -48,3 +48,11 @@ dir env:
 ```
 
 Source: https://devblogs.microsoft.com/scripting/powertip-use-windows-powershell-to-display-all-environment-variables/
+
+## Access value of environment variable
+
+```
+$env:OneDrive
+```
+
+Source: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.3

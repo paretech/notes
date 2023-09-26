@@ -56,3 +56,9 @@ $env:OneDrive
 ```
 
 Source: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.3
+
+## Make Powershell home with Windows Terminal and Oh-My-Posh
+
+- https://github.com/microsoft/terminal
+- https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
+- https://www.hanselman.com/blog/spend-less-time-cding-around-directories-with-the-powershell-z-shortcut

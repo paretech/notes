@@ -36,3 +36,7 @@ For more tips on finding things, see Doctor Scripto's blog post, https://devblog
 ```
 New-Item -Path $PROFILE -Type File -Force
 ```
+## Reload a File
+```
+. $PROFILE
+```

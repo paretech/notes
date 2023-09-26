@@ -26,3 +26,8 @@ Get-ChildItem 'E:\music_smaller\' -recurse | Where-Object {$_.length -gt 20*1024
 ```
 
 For more tips on finding things, see Doctor Scripto's blog post, https://devblogs.microsoft.com/scripting/use-windows-powershell-to-search-for-files/
+
+## Get Full File Path
+```
+(Get-Command oh-my-posh).Source
+```

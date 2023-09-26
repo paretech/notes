@@ -31,3 +31,8 @@ For more tips on finding things, see Doctor Scripto's blog post, https://devblog
 ```
 (Get-Command oh-my-posh).Source
 ```
+
+## "Touch" a File
+```
+New-Item -Path $PROFILE -Type File -Force
+```

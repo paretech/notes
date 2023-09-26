@@ -40,3 +40,11 @@ New-Item -Path $PROFILE -Type File -Force
 ```
 . $PROFILE
 ```
+
+## Display all environment variables
+
+```
+dir env:
+```
+
+Source: https://devblogs.microsoft.com/scripting/powertip-use-windows-powershell-to-display-all-environment-variables/

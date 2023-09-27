@@ -47,6 +47,8 @@ New-Item -Path $PROFILE -Type File -Force
 dir env:
 ```
 
+Should be noted that `dir` is an alias to `Get-ChildItem`.
+
 Source: https://devblogs.microsoft.com/scripting/powertip-use-windows-powershell-to-display-all-environment-variables/
 
 ## Access value of environment variable

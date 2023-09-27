@@ -62,3 +62,10 @@ Source: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell
 - https://github.com/microsoft/terminal
 - https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
 - https://www.hanselman.com/blog/spend-less-time-cding-around-directories-with-the-powershell-z-shortcut
+
+
+## Delete Directory
+
+```
+Remove-Item .\scratch\ -Recurse -Force
+```

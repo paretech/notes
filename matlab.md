@@ -67,3 +67,14 @@ function clip(command)
 end
 ```
 
+## Advanced Licensing
+
+### Enable Borrow License User Interface
+
+Run following command then restart MATLAB. After restarting MATLAB, there should now be a new option under MATLAB->Help->Licensing->Borrow License.
+
+```
+matlab.internal.licensing.enableBorrowUI(true)
+```
+
+

@@ -51,3 +51,13 @@ python git-filter-repo.py --invert-paths --path PATH-TO-YOUR-FILE-WITH-SENSITIVE
 git remote add origin git@github.com:paretech/notes.git && git fetch origin
 git push origin --force --all
 ```
+
+
+# Submodules
+
+- https://git-scm.com/book/en/v2/Git-Tools-Submodules
+- https://www.atlassian.com/git/articles/core-concept-workflows-and-tips
+- https://www.atlassian.com/git/tutorials/git-submodule
+- https://gchp.readthedocs.io/en/latest/reference/git-submodules.html
+
+# Subtrees

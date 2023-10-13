@@ -2,6 +2,9 @@
 
 ## Keyboard Shortcuts
 
+- smartSelect - used to select content within brackets, braces, quotes
+  - Shift + Ctrl + Right/Left Arrow to expand/contract selection
+
 ## Tips and Tricks
 
 ## Resources

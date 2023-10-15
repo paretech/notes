@@ -35,6 +35,11 @@ Potential use case for these items is for inclusion in presentation
 - https://romannurik.github.io/SlidesCodeHighlighter/
 - http://hilite.me/
 
+# Video
+
+- https://github.com/yt-dlp/yt-dlp#output-template
+  - Number playlist downloads `youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" <playlist_link>`
+
 # Unsorted
 - [Problem Step Recorder (PSR)](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47)
 - [explainshell.com](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47) decompose a command's arguments from documentation

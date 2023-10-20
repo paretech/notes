@@ -1,5 +1,8 @@
 # Python
 
+## Slicing
+- Why Python uses ["Half Open Intervals" for array slicing](https://web.archive.org/web/20190321101606/https://plus.google.com/115212051037621986145/posts/YTUxbXYZyfi), in the words of Guido van Rossum.
+
 ## Error Handling
 
 - [Raising Hell, Catching Errors (article, David Beazley)](https://www.usenix.org/system/files/login/articles/login_apr15_10_beazley.pdf)

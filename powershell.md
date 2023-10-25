@@ -71,3 +71,12 @@ Source: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell
 ```
 Remove-Item .\scratch\ -Recurse -Force
 ```
+
+
+## List Files in Directory
+
+I find I'm frequently getting list of files and folders to paste into documents. This use to be a flag away in CMD (e.g. `dir /b`). Can get something equivalent for PowerShell. Note that `gci` is an alisas for `Get-ChildItem`.
+
+```
+(gci).Name | clip
+```

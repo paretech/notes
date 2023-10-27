@@ -8,3 +8,6 @@
 ```
 SCRIPT_DIRECTORY=$(dirname "$(readlink -f "$0")")
 ```
+
+## Boot Systems
+- https://www.oreilly.com/library/view/hands-on-booting-learn/9781484258903/

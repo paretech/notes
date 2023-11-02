@@ -14,3 +14,11 @@ SCRIPT_DIRECTORY=$(dirname "$(readlink -f "$0")")
 
 ## Boot Systems
 - https://www.oreilly.com/library/view/hands-on-booting-learn/9781484258903/
+
+## Frequent Commands
+
+### Compress Archive
+`tar -czfv archive.tar.gz files`
+
+## Decompress Archive
+`tar -xzfv archive.tar.gz`

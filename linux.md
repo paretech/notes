@@ -18,7 +18,7 @@ SCRIPT_DIRECTORY=$(dirname "$(readlink -f "$0")")
 ## Frequent Commands
 
 ### Compress Archive
-`tar -czfv archive.tar.gz files`
+`tar -czvf archive.tar.gz files`
 
 ## Decompress Archive
-`tar -xzfv archive.tar.gz`
+`tar -xzvf archive.tar.gz`

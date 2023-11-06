@@ -80,3 +80,13 @@ I find I'm frequently getting list of files and folders to paste into documents.
 ```
 (gci).Name | clip
 ```
+
+
+## Get Path of Commandlet
+
+```
+(Get-Command wt).Path
+(gcm wt).Path
+```
+
+Source: https://superuser.com/a/676107

@@ -76,3 +76,5 @@ Potential use case for these items is for inclusion in presentation
 - https://learn.microsoft.com/en-us/message-analyzer/installing-and-upgrading-message-analyzer
 - https://www.capitalone.com/tech/open-source/view-sequence-diagrams-better/
 - https://protobuf.dev/
+- https://zeromq.org/
+- https://mqtt.org/

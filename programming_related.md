@@ -11,3 +11,4 @@
 # Patterns and Architecture
 
 - https://devmethodologies.blogspot.com/2012/07/dependency-injection.html
+  - "Maintainability is usually the most important attribute of software and this is the ultimate in maintainability as the existing code does not have to be modified or even rebuilt."

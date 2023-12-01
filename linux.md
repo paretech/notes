@@ -22,3 +22,7 @@ SCRIPT_DIRECTORY=$(dirname "$(readlink -f "$0")")
 
 ### Decompress Archive
 `tar -xzvf archive.tar.gz`
+
+### Get full path of file
+
+`realpath rootfs.cpio.gz`

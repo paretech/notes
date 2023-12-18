@@ -39,6 +39,13 @@ Potential use case for these items is for inclusion in presentation
 
 - https://github.com/yt-dlp/yt-dlp#output-template
   - Number playlist downloads `youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" <playlist_link>`
+ 
+# Electrical Connector Identification
+- https://connectorbook.com/
+  - https://connectorbook.com/identification.html
+ 
+# Self Publish Books
+- https://lulu.com/
 
 # Unsorted
 - [Problem Step Recorder (PSR)](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47)

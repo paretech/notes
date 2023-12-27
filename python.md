@@ -33,3 +33,10 @@
 
 ### Start a new Python CLI Project
 - cookiecutter https://github.com/nvie/cookiecutter-python-cli.git
+
+## Web Scraping and Testing
+
+### Use Selenium to Setup Requests Session
+Sometimes when scraping sites or testing you need to authenticate with a target site using methods like SSO before making additional requests. Libraries like Selenium are really not that great at introspecting raw responses so using the Requests module is usually desired. The following resource demonstrates minimum concept of how to setup such sessions. 
+
+https://stackoverflow.com/questions/58170965/how-to-use-requests-library-with-selenium-in-python

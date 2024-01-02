@@ -22,3 +22,15 @@ Following snippet useful to determine how many levels deep a section header migh
 Following snippet useful when trying to indent text my number of levels.
 
 `=CONCAT(REPT("    ", I56), B56)`
+
+
+## Filter on list of values
+
+Sometimes when working with string data in Excel (e.g. requirements documents) it is useful to be able to provide a list of strings on which to filter on. The following snippet does just that!
+
+In the following snippet, `requirements` and `SearchFor` are excel table identifiers, and `ID` is a table heading in each table.
+
+`=FILTER(requirements, COUNTIF(SearchFor[ID], requirements[Id]), "No Result")`
+
+Resources:
+- https://support.microsoft.com/en-au/office/filter-function

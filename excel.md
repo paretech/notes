@@ -1,5 +1,10 @@
 # Excel
 
+## Working with Tables
+
+### Resources
+[Using structured references with Excel tables (MS)](https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e)
+
 ## Conditional Highlight Rows
 1. Highlight data range (typically exclude headers)
 2. Conditional Highlighting->New Rule

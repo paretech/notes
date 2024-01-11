@@ -52,3 +52,11 @@ Use `aggregate` function to determine if a row is visible or not. This is useful
 ```
 =AGGREGATE(3,5, A2)
 ```
+
+## Get column by name from a filtered result
+
+Lots of different options available here. Could also use spill range instead of embedding filter. Works well when you are already displaying a larger filtered result and need to do some subsequent calculation/logic.
+
+```
+=XLOOKUP("Name", requirements[#Headers], FILTER(requirements, ((requirements[Object Type]="Heading"))+COUNTIF(visible_id, requirements[Id]), "No Result"))
+```

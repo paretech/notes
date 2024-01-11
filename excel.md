@@ -41,6 +41,11 @@ Resources:
 - https://support.microsoft.com/en-au/office/filter-function
 - [Dynamic array formulas and spilled array behavior](https://support.microsoft.com/en-au/office/dynamic-array-formulas-and-spilled-array-behavior-205c6b06-03ba-4151-89a1-87a7eb36e531)
 
-## Using Tables to Filter Data
 
-- [Of the more than 400 functions in Excel, only two are able to optionally exclude hidden rows: SUBTOTAL and AGGREGATE.](https://www.sfmagazine.com/articles/2021/june/excel-calculations-based-on-visible-rows)
+## Flag if row is visible
+
+Use `aggregate` function to determine if a row is visible or not. This is useful because [very few Excel functions are able to exclude hidden rows](https://www.sfmagazine.com/articles/2021/june/excel-calculations-based-on-visible-rows). Working with hidden rows is useful when using table filters but you want that selection to apply to some other data in, presumably, clever ways.
+
+```
+=AGGREGATE(3,5, A2)
+```

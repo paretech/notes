@@ -40,3 +40,7 @@ In the following snippet, `requirements` and `SearchFor` are excel table identif
 Resources:
 - https://support.microsoft.com/en-au/office/filter-function
 - [Dynamic array formulas and spilled array behavior](https://support.microsoft.com/en-au/office/dynamic-array-formulas-and-spilled-array-behavior-205c6b06-03ba-4151-89a1-87a7eb36e531)
+
+## Using Tables to Filter Data
+
+- [Of the more than 400 functions in Excel, only two are able to optionally exclude hidden rows: SUBTOTAL and AGGREGATE.](https://www.sfmagazine.com/articles/2021/june/excel-calculations-based-on-visible-rows)

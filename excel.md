@@ -40,6 +40,7 @@ In the following snippet, `requirements` and `SearchFor` are excel table identif
 Resources:
 - https://support.microsoft.com/en-au/office/filter-function
 - [Dynamic array formulas and spilled array behavior](https://support.microsoft.com/en-au/office/dynamic-array-formulas-and-spilled-array-behavior-205c6b06-03ba-4151-89a1-87a7eb36e531)
+- A vertical spill function can become a horizontal spill function by wraping in `transpose`
 
 
 ## Flag if row is visible

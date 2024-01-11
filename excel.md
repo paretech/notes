@@ -41,6 +41,7 @@ Resources:
 - https://support.microsoft.com/en-au/office/filter-function
 - [Dynamic array formulas and spilled array behavior](https://support.microsoft.com/en-au/office/dynamic-array-formulas-and-spilled-array-behavior-205c6b06-03ba-4151-89a1-87a7eb36e531)
 - [ExcelJet: Filters to extract matching values](https://exceljet.net/formulas/filter-to-extract-matching-values)
+- [Spill Range Operator](https://support.microsoft.com/en-us/office/spilled-range-operator-3dd5899f-bca2-4b9d-a172-3eae9ac22efd)
 - A vertical spill function can become a horizontal spill function by wraping in `transpose`
 
 

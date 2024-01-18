@@ -9,6 +9,8 @@
   - Unfold (`Ctrl+Shift+])` unfolds the collapsed region at the cursor.
   - Unfold All (`Ctrl+K Ctrl+J`) unfolds all regions in the editor.
   - Fold Level X (`Ctrl+K Ctrl+1` for level 1) folds all regions of level X, except the region at the current cursor position.
+- Debugging
+  - `F9` toggle breakpoint
 
 ## Tips and Tricks
 

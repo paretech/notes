@@ -7,7 +7,7 @@
 - Folding - fold regions of source code using the folding icons on the gutter or using keyboard shortcuts. [More Shortcuts Available](https://code.visualstudio.com/docs/editor/codebasics#_folding)
   - Fold (`Ctrl+Shift+[`) folds the innermost uncollapsed region at the cursor.
   - Unfold (`Ctrl+Shift+])` unfolds the collapsed region at the cursor.
-  - Unfold All (Ctrl+K Ctrl+J) unfolds all regions in the editor.
+  - Unfold All (`Ctrl+K Ctrl+J`) unfolds all regions in the editor.
   - Fold Level X (`Ctrl+K Ctrl+1` for level 1) folds all regions of level X, except the region at the current cursor position.
 
 ## Tips and Tricks

@@ -42,3 +42,7 @@ Sometimes when scraping sites or testing you need to authenticate with a target 
 https://stackoverflow.com/questions/58170965/how-to-use-requests-library-with-selenium-in-python
 
 Unconfirmed, but see also https://github.com/cryzed/Selenium-Requests
+
+
+## Making Tests Importable
+https://docs.python-guide.org/writing/structure/

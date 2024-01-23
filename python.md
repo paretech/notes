@@ -43,6 +43,11 @@ https://stackoverflow.com/questions/58170965/how-to-use-requests-library-with-se
 
 Unconfirmed, but see also https://github.com/cryzed/Selenium-Requests
 
+## Pandas
+
+### Appending rows
+Aww, you think you can easily append rows.
+
 
 ## Making Tests Importable
 https://docs.python-guide.org/writing/structure/

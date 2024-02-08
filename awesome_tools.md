@@ -6,6 +6,7 @@
 - Com0Com
 - TeraTerm
 - Putty
+- MobaXTerm
 
 # Color Calibration
 - argyllcms

@@ -1,0 +1,8 @@
+- The Amp Hour
+- https://www.eevblog.com/
+- https://www.grc.com/securitynow.htm
+- https://www.qsl.net/n9zia/spec/
+- https://www.keysight.com/us/en/assets/7018-06714/application-notes/5952-0292.pdf
+- https://www.abcelectronique.com/annuaire/montages/cache/1616/telecommande-rf.html
+- https://archive.seattlerobotics.org/encoder/200010/robarnold.html
+- https://xdevs.com/

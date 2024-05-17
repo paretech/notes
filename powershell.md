@@ -95,3 +95,11 @@ I find I'm frequently getting list of files and folders to paste into documents.
 ```
 
 Source: https://superuser.com/a/676107
+
+## Get History
+
+```
+subl (Get-PSReadlineOption).HistorySavePath
+```
+
+Source: https://stackoverflow.com/questions/44104043/how-can-i-see-the-command-history-across-all-powershell-sessions-in-windows-serv

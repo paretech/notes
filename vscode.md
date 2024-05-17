@@ -24,3 +24,6 @@
 - MatlabUnofficial (Xavier Hahn)
 - Untested
   - [Quick and Simple Text Selection (David Bankier)](https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select)
+
+## Modifications
+- https://stackoverflow.com/questions/42796887/switch-focus-between-editor-and-integrated-terminal

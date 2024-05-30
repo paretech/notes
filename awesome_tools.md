@@ -55,6 +55,9 @@ Potential use case for these items is for inclusion in presentation
 # Backup and Restore
 - https://www.terabyteunlimited.com/products-suite/
 
+# Web/Blogging Tools and Related
+- https://utteranc.es/ (comments via GitHub issues)
+
 # Unsorted
 - [Problem Step Recorder (PSR)](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47)
 - [explainshell.com](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47) decompose a command's arguments from documentation

@@ -6,3 +6,5 @@
 - https://www.abcelectronique.com/annuaire/montages/cache/1616/telecommande-rf.html
 - https://archive.seattlerobotics.org/encoder/200010/robarnold.html
 - https://xdevs.com/
+- https://seds.nl/notes/
+- https://github.com/dabeaz/blog

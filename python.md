@@ -51,3 +51,6 @@ Aww, you think you can easily append rows.
 
 ## Making Tests Importable
 https://docs.python-guide.org/writing/structure/
+
+## Decorators
+- https://stackoverflow.com/questions/3931627/how-to-build-a-decorator-with-optional-parameters/3931654#3931654

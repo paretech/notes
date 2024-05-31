@@ -8,3 +8,4 @@
 - https://xdevs.com/
 - https://seds.nl/notes/
 - https://github.com/dabeaz/blog
+- https://bm424.github.io/

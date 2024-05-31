@@ -54,3 +54,6 @@ https://docs.python-guide.org/writing/structure/
 
 ## Decorators
 - https://stackoverflow.com/questions/3931627/how-to-build-a-decorator-with-optional-parameters/3931654#3931654
+
+## Blogs
+- https://bm424.github.io/

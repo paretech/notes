@@ -12,7 +12,7 @@
 - Debugging
   - `F9` toggle breakpoint
 - CMD+SHIFT+O Navigate between symbols within a file
-- 
+- shift+cmd+. opens all the methods within classes in file and let's you search
 
 ## Tips and Tricks
 

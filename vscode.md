@@ -11,10 +11,13 @@
   - Fold Level X (`Ctrl+K Ctrl+1` for level 1) folds all regions of level X, except the region at the current cursor position.
 - Debugging
   - `F9` toggle breakpoint
+- CMD+SHIFT+O Navigate between symbols within a file
+- 
 
 ## Tips and Tricks
 
 ## Resources
+- https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
 ## Extensions
 - ReWrap (stkb)

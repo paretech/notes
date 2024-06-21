@@ -2,8 +2,8 @@
 
 ## Keyboard Shortcuts
 
-- smartSelect - used to select content within brackets, braces, quotes
-  - Shift + Ctrl + Right/Left Arrow to expand/contract selection
+- [smartSelect](https://stackoverflow.com/questions/37835012/select-everything-between-matching-brackets-in-vs-code) - used to select content within brackets, braces, quotes
+  - Shift + Alt + Right/Left Arrow to expand/contract selection
 - Folding - fold regions of source code using the folding icons on the gutter or using keyboard shortcuts. [More Shortcuts Available](https://code.visualstudio.com/docs/editor/codebasics#_folding)
   - Fold (`Ctrl+Shift+[`) folds the innermost uncollapsed region at the cursor.
   - Unfold (`Ctrl+Shift+])` unfolds the collapsed region at the cursor.

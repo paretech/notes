@@ -37,6 +37,11 @@ For more tips on finding things, see Doctor Scripto's blog post, https://devblog
 (Resolve-Path .\chess3.png).path | clip
 ```
 
+## Get Full File Path of all files in directory
+```
+Get-ChildItem -Path .\2.15.4\ -File -Recurse | Select-Object -ExpandProperty FullName
+```
+
 ## "Touch" a File
 ```
 New-Item -Path $PROFILE -Type File -Force

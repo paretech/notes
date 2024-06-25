@@ -108,3 +108,12 @@ subl (Get-PSReadlineOption).HistorySavePath
 ```
 
 Source: https://stackoverflow.com/questions/44104043/how-can-i-see-the-command-history-across-all-powershell-sessions-in-windows-serv
+
+
+## Get File Hash
+
+```
+Get-FileHash zaber-motion-lib-linux-amd64.so -Algorithm SHA512 | Format-List
+```
+
+Source: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.4

@@ -92,7 +92,7 @@ I find I'm frequently getting list of files and folders to paste into documents.
 ```
 
 
-## Get Path of Commandlet
+## Get Path of Commandlet (like which or where)
 
 ```
 (Get-Command wt).Path

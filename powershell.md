@@ -117,3 +117,22 @@ Get-FileHash zaber-motion-lib-linux-amd64.so -Algorithm SHA512 | Format-List
 ```
 
 Source: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.4
+
+
+## Get the target path of a symlink
+
+Sometimes when debugging, you need to get the target path of a symlink. Here are a couple of examples...
+
+```
+# Get Path by pipe
+Get-Item -Path .\cv2.pyd | Select-Object Target
+
+# Get Path by attribute access
+$(Get-Item -Path .\cv2.pyd).Target
+
+# Change directory to parent
+Set-Location $(Split-Path -Path $(Resolve-Path -Path $(Get-Item -Path .\cv2.pyd).Target) -Parent)
+
+# Check if target exists
+Test-Path $(Resolve-Path -Path $(Get-Item -Path .\cv2.pyd).Target)
+```

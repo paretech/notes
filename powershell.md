@@ -130,6 +130,9 @@ Get-Item -Path .\cv2.pyd | Select-Object Target
 # Get Path by attribute access
 $(Get-Item -Path .\cv2.pyd).Target
 
+# Get Absolute Path
+$(Resolve-Path -Path $(Get-Item -Path .\cv2.pyd).Target).Path
+
 # Change directory to parent
 Set-Location $(Split-Path -Path $(Resolve-Path -Path $(Get-Item -Path .\cv2.pyd).Target) -Parent)
 

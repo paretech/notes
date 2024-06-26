@@ -136,3 +136,9 @@ Set-Location $(Split-Path -Path $(Resolve-Path -Path $(Get-Item -Path .\cv2.pyd)
 # Check if target exists
 Test-Path $(Resolve-Path -Path $(Get-Item -Path .\cv2.pyd).Target)
 ```
+
+## Enable NTFS Long Paths
+```
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+-Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+```

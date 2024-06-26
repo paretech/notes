@@ -36,6 +36,10 @@ Potential use case for these items is for inclusion in presentation
 - https://romannurik.github.io/SlidesCodeHighlighter/
 - http://hilite.me/
 
+# Dependency Walking (getting out of hell)
+- https://github.com/lucasg/Dependencies
+- https://www.dependencywalker.com/
+
 # Video
 
 - https://github.com/yt-dlp/yt-dlp#output-template

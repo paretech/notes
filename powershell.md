@@ -161,6 +161,8 @@ Source: https://stackoverflow.com/questions/1825585/determine-installed-powershe
 
 ```
 $(Get-Item -Path my_file.txt) | Get-Member
+
+Get-Item -Path my_file.txt | Select-Object -Property *
 ```
 
 Source: https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/03-discovering-objects

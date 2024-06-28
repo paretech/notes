@@ -152,3 +152,10 @@ $PSVersionTable.PSVersion
 ```
 
 Source: https://stackoverflow.com/questions/1825585/determine-installed-powershell-version
+
+## Get Available Items for Commands
+"`Get-Member` helps you discover what objects, properties, and methods are available for commands."
+
+```
+$(Get-Item -Path my_file.txt) | Get-Member
+```

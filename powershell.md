@@ -1,3 +1,6 @@
+# Powershell Resources
+- https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction
+
 # Powershell Snippets
 
 ## Zip Logs

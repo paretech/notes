@@ -145,3 +145,10 @@ Test-Path $(Resolve-Path -Path $(Get-Item -Path .\cv2.pyd).Target)
 New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
 -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
 ```
+
+## Get Powershell Version
+```
+$PSVersionTable.PSVersion
+```
+
+Source: https://stackoverflow.com/questions/1825585/determine-installed-powershell-version

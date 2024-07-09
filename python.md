@@ -55,5 +55,33 @@ https://docs.python-guide.org/writing/structure/
 ## Decorators
 - https://stackoverflow.com/questions/3931627/how-to-build-a-decorator-with-optional-parameters/3931654#3931654
 
+### Tracer
+
+This pair of decorators can be handy to log function and method calls on a class. 
+
+```
+def debug(func):
+    """Function decorator to log call"""
+    log = logging.getLogger(func.__module__)
+    msg = func.__qualname__
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        log.debug(msg)
+        return func(*args, **kwargs)
+    return wrapper
+
+def debugmethods(cls):
+    """Class decorator that recursively logs callables"""
+    for base_cls in cls.__mro__:
+        if base_cls is object:
+            continue
+        for name, val in vars(base_cls).items():
+            if isinstance(val, type):
+                setattr(cls, name, debugmethods(val))
+            elif callable(val):
+                setattr(cls, name, debug(val))
+    return cls
+```
+
 ## Blogs
 - https://bm424.github.io/

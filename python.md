@@ -59,7 +59,7 @@ https://docs.python-guide.org/writing/structure/
 
 This pair of decorators can be handy to log function and method calls on a class. 
 
-```
+```python
 def debug(func):
     """Function decorator to log call"""
     log = logging.getLogger(func.__module__)

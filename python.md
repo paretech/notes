@@ -83,5 +83,8 @@ def debugmethods(cls):
     return cls
 ```
 
+## Catching Signals
+- https://anonbadger.wordpress.com/2018/12/15/python-signal-handlers-and-exceptions/
+
 ## Blogs
 - https://bm424.github.io/

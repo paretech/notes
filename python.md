@@ -88,3 +88,74 @@ def debugmethods(cls):
 
 ## Blogs
 - https://bm424.github.io/
+
+## Examples
+
+### Handling Signals and Blocking Socket Calls
+
+The origins of this demo came from a problem where TCP socket accept() calls would block indefinitely. One might encounter this situation when using sockets directly or through other modules that use sockets (like multiprocessing.connection.listener). In such situations, registering signal handlers for SIGINT are not enough as .accept() blocks indefinitely. The following example instead closes the listener which then causes the blocking accept to end with OSError. This example was inspired by David Beazley article ["raise SystemExit(0)"](https://www.usenix.org/system/files/login/articles/login_winter17_12_beazley.pdf).
+
+```python
+import atexit
+import datetime
+import multiprocessing.connection
+import signal
+import threading
+import time
+
+def exit_handler():
+    print("Exit Handler")
+
+def signal_handler(signum, frame):
+    signame = signal.Signals(signum).name
+    print(f'Signal handler called: {signame} ({signum})')
+    raise SystemExit('Goodbye cruel world')
+
+def listen(listener):
+    # Can't use sentinel from parent thread as listener.accept blocks indefinitely
+    while True:
+        print(f'Listening on {listener.address}')
+
+        try:
+            print("Listening for incoming connections...")
+            # Blocks forever, can't even catch sigint... 
+            # Parent thread must close listener to unblock.
+            conn = listener.accept()
+        except OSError as e:
+            print(f'Listening socket likely closed. Breaking listen loop.')
+            break
+        except Exception as e:
+            print(f'Caught Unhandled Exception in Listener: {e}')
+            raise
+        else:
+            # Do something with the connection...
+            print("Connected!")
+
+        try:
+            read = conn.recv()
+            print(f'Read: "{read}"')
+        except EOFError as e:
+            print(f'Did not receive client data. Ignoring...')
+
+    # Close the listener when we're done
+    listener.close()
+    print('listener closed')
+
+if __name__ == '__main__':
+    # Set up signal handler for SIGINT
+    signal.signal(signal.SIGINT, signal_handler)
+    atexit.register(exit_handler)
+
+    listener = multiprocessing.connection.Listener(address:=('127.0.0.1', 2524))
+
+    threading.Thread(target=listen, args=(listener, )).start()
+
+    try:
+        while True:
+            print(f'{datetime.datetime.now()}: Heartbeat')
+            time.sleep(1)
+    except SystemExit as e:
+        print(f'Caught Exception in Main: {e}')
+    finally:
+        listener.close()
+```

@@ -100,3 +100,5 @@ Potential use case for these items is for inclusion in presentation
 - https://protobuf.dev/
 - https://zeromq.org/
 - https://mqtt.org/
+- https://rufus.ie/en/ (bootable USB tool)
+- https://www.dfrobot.com/ (Adafruit like)

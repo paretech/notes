@@ -89,9 +89,7 @@ def debugmethods(cls):
 ## Blogs
 - https://bm424.github.io/
 
-## Examples
-
-### Handling Signals and Blocking Socket Calls
+## Handling Signals and Blocking Socket Calls
 
 The origins of this demo came from a problem where TCP socket accept() calls would block indefinitely. One might encounter this situation when using sockets directly or through other modules that use sockets (like multiprocessing.connection.listener). In such situations, registering signal handlers for SIGINT are not enough as .accept() blocks indefinitely. The following example instead closes the listener which then causes the blocking accept to end with OSError. This example was inspired by David Beazley article ["raise SystemExit(0)"](https://www.usenix.org/system/files/login/articles/login_winter17_12_beazley.pdf).
 
@@ -159,3 +157,24 @@ if __name__ == '__main__':
     finally:
         listener.close()
 ```
+
+
+## Import Errors
+
+Occasionally I run into import errors that at first are confusing but after investigation makes sense. Most of the import errors I run into are associated with compiled imports like OpenCV. Such imports often appear as a .pyd file (e.g. cv2.pyd). Here are some tips for troubleshooting. Note that there are some differences in the process if on Linux versus Windows. 
+
+*Check if the .pyd file is in the the intended directory.*
+
+
+*Check that the directory is on the Python search path.*
+
+The easiest way to do this in my opinion is to use the Python debugger that allows you to inspect the import error. From there `import sys` and inspect `sys.path`. If the location of you .pyd file is not on the search path defined by sys.path, this is likely the reason.
+
+
+*Check if the .pyd file is compatible with your Python version*
+
+This sounds simple but it is easy to make mistakes here... Errors of this nature are often reported as `ImportError: DLL load failed while importing cv2`.
+
+Using similar technique as earlier step, use the Python debugger that allows you to inspect the import error. From there `import sys` and inspect `sys.version`. Write down this value. You could be thinking why not just run `python --version` from command prompt and be done. You could, but there are often other layers involved like Virtual Environments and custom build environments used by large code bases. Use the Python debugger where the actual issue was observed is the most concerete way and will let you see the error quicker than other methods. 
+
+Now that the Python version is known, it's time to see if the .pyd file was build for that version. On Windows you can run `python -m pydfileinfo <filename>.pyd`. 

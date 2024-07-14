@@ -175,6 +175,14 @@ The easiest way to do this in my opinion is to use the Python debugger that allo
 
 This sounds simple but it is easy to make mistakes here... Errors of this nature are often reported as `ImportError: DLL load failed while importing cv2`.
 
-Using similar technique as earlier step, use the Python debugger that allows you to inspect the import error. From there `import sys` and inspect `sys.version`. Write down this value. You could be thinking why not just run `python --version` from command prompt and be done. You could, but there are often other layers involved like Virtual Environments and custom build environments used by large code bases. Use the Python debugger where the actual issue was observed is the most concerete way and will let you see the error quicker than other methods. 
+Using similar technique as earlier step, use the Python debugger that allows you to inspect the import error. From there `import sys` and inspect `sys.version`. Write down this value. 
 
-Now that the Python version is known, it's time to see if the .pyd file was build for that version. On Windows you can run `python -m pydfileinfo <filename>.pyd`. 
+You may be thinking, why not just run `python --version` from command prompt and be done. You could, but there are often other layers involved like Virtual Environments and custom build environments used by large code bases. Use the Python debugger where the actual issue was observed is the most concerete way and will let you see the error quicker than other methods. 
+
+Now that the Python version is known, it's time to see if the .pyd file was build for that version. 
+
+On Windows, I thought you could run `python -m pydfileinfo <filename>.pyd` but I'm not seeing that anywhere... Must be a LLVM hallucination... Instead you can use [lucasg Dependencies](https://github.com/lucasg/Dependencies) `Dependencies.exe <filename>.pyd -imports | Select-String Python`.
+
+On Linux, `ldd <filename>.pyd | grep -i python`.
+
+

@@ -17,12 +17,19 @@ SCRIPT_DIRECTORY=$(dirname "$(readlink -f "$0")")
 
 ## Frequent Commands
 
+
 ### Compress Archive
 `tar -czvf archive.tar.gz files`
+
 
 ### Decompress Archive
 `tar -xzvf archive.tar.gz`
 
+
 ### Get full path of file
 
 `realpath rootfs.cpio.gz`
+
+OR
+
+`readlink -f <filename>`

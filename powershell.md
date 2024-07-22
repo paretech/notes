@@ -166,3 +166,12 @@ Get-Item -Path my_file.txt | Select-Object -Property *
 ```
 
 Source: https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/03-discovering-objects
+
+
+## "Tail" a file
+
+```
+Get-Content -wait -Path <file_path>
+```
+
+Source: https://stackoverflow.com/questions/4426442/unix-tail-equivalent-command-in-windows-powershell

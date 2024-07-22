@@ -88,6 +88,7 @@ def debugmethods(cls):
 
 ## Blogs
 - https://bm424.github.io/
+- https://norvig.com/
 
 ## Handling Signals and Blocking Socket Calls
 

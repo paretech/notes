@@ -186,4 +186,32 @@ On Windows, I thought you could run `python -m pydfileinfo <filename>.pyd` but I
 
 On Linux, `ldd <filename>.pyd | grep -i python`.
 
+## Find Serial Ports Matching Criteria
+
+```
+import serial.tools.list_ports
+
+def find_port(criteria):
+    results = []
+
+    for port in serial.tools.list_ports.comports():
+        port_details = vars(port)
+
+        criteria_of_interest = {
+            key: value for key, value in port_details.items() 
+            if key in criteria
+        }
+
+        if criteria_of_interest == criteria:
+            results.append(port_details['name'])
+        
+    return results
+
+criteria = {'manufacturer': 'Microsoft', 'PID': 1316}
+
+matches = find_port(criteria)
+
+# Get First Result or None even if an empty list
+next(iter(find_port(criteria)), None)
+```
 

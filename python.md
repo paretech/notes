@@ -188,7 +188,7 @@ On Linux, `ldd <filename>.pyd | grep -i python`.
 
 ## Find Serial Ports Matching Criteria
 
-```
+```python
 import serial.tools.list_ports
 
 def find_port(criteria):

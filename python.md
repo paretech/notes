@@ -89,6 +89,7 @@ def debugmethods(cls):
 ## Blogs
 - https://bm424.github.io/
 - https://norvig.com/
+- https://wumb0.in
 
 ## Handling Signals and Blocking Socket Calls
 
@@ -214,4 +215,10 @@ matches = find_port(criteria)
 # Get First Result or None even if an empty list
 next(iter(find_port(criteria)), None)
 ```
+
+## Low level bit and byte packing (often for hardware interfaces)
+
+- David Beazley cookbook IIRC
+- https://wumb0.in/a-better-way-to-work-with-raw-data-types-in-python.html
+
 

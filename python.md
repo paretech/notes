@@ -187,6 +187,12 @@ On Windows, I thought you could run `python -m pydfileinfo <filename>.pyd` but I
 
 On Linux, `ldd <filename>.pyd | grep -i python`.
 
+```python
+import importlib
+spec = importlib.util.find_spec('cv2')
+mod = importlib.util.module_from_spec(spec)
+```
+
 ## Find Serial Ports Matching Criteria
 
 ```python

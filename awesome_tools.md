@@ -103,3 +103,4 @@ Potential use case for these items is for inclusion in presentation
 - https://rufus.ie/en/ (bootable USB tool)
 - https://etcher.balena.io/ (bootable USB tool)
 - https://www.dfrobot.com/ (Adafruit like)
+- https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/usbview?redirectedfrom=MSDN (demo app/example USB Tree Viewer)

@@ -105,3 +105,5 @@ Potential use case for these items is for inclusion in presentation
 - https://www.dfrobot.com/ (Adafruit like)
 - https://github.com/visiont3lab/photometric_stereo
 - https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/usbview?redirectedfrom=MSDN (demo app/example USB Tree Viewer)
+- https://ntrs.nasa.gov/api/citations/20220003592/downloads/Korkin_manuscript_rev1.pdf
+- 

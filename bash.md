@@ -33,3 +33,10 @@ SCRIPT_DIRECTORY=$(dirname "$(readlink -f "$0")")
 OR
 
 `readlink -f <filename>`
+
+
+## Ping with Timestamp
+
+`ping <ip_address> | while read pong; do echo "$(date -u +%T): $pong"; done`
+
+Source: https://stackoverflow.com/questions/10679807/how-do-i-timestamp-every-ping-result

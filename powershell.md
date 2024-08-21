@@ -175,3 +175,9 @@ Get-Content -wait -Path <file_path>
 ```
 
 Source: https://stackoverflow.com/questions/4426442/unix-tail-equivalent-command-in-windows-powershell
+
+## "Grep" output using Select-String
+
+```
+dir env: | Select-String -Pattern PATH
+```

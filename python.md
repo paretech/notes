@@ -336,8 +336,8 @@ class PolyHeader(Structure):
 ## Reading and Writing Objects to Disk
 
 ```python
-import pickle
 import pathlib
+import pickle
 
 def save_object(filepath, data):
     filepath = pathlib.Path(filepath).expanduser().resolve()

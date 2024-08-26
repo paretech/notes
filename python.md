@@ -335,7 +335,7 @@ class PolyHeader(Structure):
 
 ## Reading and Writing Objects to Disk
 
-```
+```python
 import pickle
 import pathlib
 

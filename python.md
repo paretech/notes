@@ -332,3 +332,23 @@ class PolyHeader(Structure):
         ('i', 'num_polys')
     ]
 ```
+
+## Reading and Writing Objects to Disk
+
+```
+import pickle
+import pathlib
+
+def save_object(filepath, data):
+    filepath = pathlib.Path(filepath).expanduser().resolve()
+    with filepath.open('wb') as f:
+        pickle.dump(data, f)
+
+    return str(filepath)
+
+def load_object(filepath):
+    filepath = pathlib.Path(filepath).expanduser().resolve()
+
+    with filepath.open('rb') as f:
+        return pickle.load(f)
+```

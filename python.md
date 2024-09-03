@@ -352,3 +352,6 @@ def load_object(filepath):
     with filepath.open('rb') as f:
         return pickle.load(f)
 ```
+
+## Wheelhouse (i.e. precompiled offline package install)
+https://pip.pypa.io/en/latest/topics/repeatable-installs/#using-a-wheelhouse-aka-installation-bundles

@@ -355,3 +355,7 @@ def load_object(filepath):
 
 ## Wheelhouse (i.e. precompiled offline package install)
 https://pip.pypa.io/en/latest/topics/repeatable-installs/#using-a-wheelhouse-aka-installation-bundles
+
+
+## Nested or Multiple (stack) of with/context managers
+https://stackoverflow.com/questions/3024925/create-a-with-block-on-several-context-managers

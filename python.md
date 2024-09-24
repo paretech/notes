@@ -359,3 +359,7 @@ https://pip.pypa.io/en/latest/topics/repeatable-installs/#using-a-wheelhouse-aka
 
 ## Nested or Multiple (stack) of with/context managers
 https://stackoverflow.com/questions/3024925/create-a-with-block-on-several-context-managers
+
+## Retry
+
+Give https://tenacity.readthedocs.io/en/latest/ a try!

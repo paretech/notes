@@ -369,3 +369,5 @@ See also https://stackoverflow.com/questions/3024925/create-a-with-block-on-seve
 ## Retry
 
 Give https://tenacity.readthedocs.io/en/latest/ a try!
+
+https://github.com/jd/tenacity

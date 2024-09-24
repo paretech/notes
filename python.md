@@ -358,7 +358,13 @@ https://pip.pypa.io/en/latest/topics/repeatable-installs/#using-a-wheelhouse-aka
 
 
 ## Nested or Multiple (stack) of with/context managers
-https://stackoverflow.com/questions/3024925/create-a-with-block-on-several-context-managers
+Pretty handy! For example if working with a vendor third-party API that has several APIs that need initialized but also need torn down if anything goes wrong. 
+
+https://docs.python.org/3/library/contextlib.html#contextlib.ExitStack
+
+Can use ExitStack itself as a context manager (CM) then exit_stack.pop_all() if get to bottom so that it can be destroyed with class or registered at exit.
+
+See also https://stackoverflow.com/questions/3024925/create-a-with-block-on-several-context-managers
 
 ## Retry
 

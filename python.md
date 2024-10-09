@@ -371,3 +371,8 @@ See also https://stackoverflow.com/questions/3024925/create-a-with-block-on-seve
 Give https://tenacity.readthedocs.io/en/latest/ a try!
 
 https://github.com/jd/tenacity
+
+
+## Prefer
+
+Prefer `ast.literal_eval` over `eval`. `ast.literal_eval` will allow you to evaluate Python datatypes and will raise an exception rather than executing random code. 

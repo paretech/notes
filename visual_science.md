@@ -1,0 +1,2 @@
+- [Information Display Measurements Standard (IDMS)](https://www.sid.org/Standards/ICDM)
+- 

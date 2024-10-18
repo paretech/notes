@@ -4,5 +4,7 @@
 - [Valve Corporation - Field of View](https://www.valvesoftware.com/en/index/deep-dive/fov)
 - [3Blue1Brown - Introduction to Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra)
 - [Understanding Quaternions](https://www.3dgep.com/understanding-quaternions/)
-- https://datagenetics.com/blog/august32013/index.html
+- Aliasing
+  - https://datagenetics.com/blog/august32013/index.html
+  - https://gautamnagrawal.medium.com/rotating-image-by-any-angle-shear-transformation-using-only-numpy-d28d16eb5076
  

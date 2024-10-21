@@ -376,3 +376,6 @@ https://github.com/jd/tenacity
 ## Prefer
 
 Prefer `ast.literal_eval` over `eval`. `ast.literal_eval` will allow you to evaluate Python datatypes and will raise an exception rather than executing random code. 
+
+## Naming Things
+- https://www.youtube.com/watch?v=hZ7hgYKKnF0

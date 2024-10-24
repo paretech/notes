@@ -379,3 +379,11 @@ Prefer `ast.literal_eval` over `eval`. `ast.literal_eval` will allow you to eval
 
 ## Naming Things
 - https://www.youtube.com/watch?v=hZ7hgYKKnF0
+
+
+## Consume until done
+
+```
+while thumbs:
+    thumbsrow, thumbs = thumbs[:cols], thumbs[cols:]
+```

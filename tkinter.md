@@ -13,5 +13,5 @@
 - https://gist.github.com/ajfigueroa/c2af555630d1db3efb5178ece728b017
 - https://web.archive.org/web/20170205072049/http://tkinter.unpythonic.net/wiki/ToyMVC
 - https://gist.githubusercontent.com/ReddyKilowatt/5d0bfedbe9a92a8f50cd948ab51683ee/raw/8d14d1bd363f4aac7a9adc5500a71e509cfee7e2/controller.py
-- 
+- https://www.youtube.com/watch?v=3RdbGm6WX-g
 

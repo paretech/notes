@@ -387,3 +387,24 @@ Prefer `ast.literal_eval` over `eval`. `ast.literal_eval` will allow you to eval
 while thumbs:
     thumbsrow, thumbs = thumbs[:cols], thumbs[cols:]
 ```
+
+## Named Tuples and "Simple Points"
+
+```
+class Point(namedtuple('Point', ['x', 'y'])):
+    def __mul__(self, scalar):
+        return Point(self.x * scalar, self.y * scalar)
+    
+    def __add__(self, other):
+        return Point(self.x + other.x, self.y + other.y)
+        
+    def __sub__(self, other):
+        return Point(self.x - other.x, self.y - other.y)
+    
+    def __truediv__(self, scalar):
+        return Point(self.x / scalar, self.y / scalar)
+        
+    def __str__(self):
+        return f"({self.x:.2f}, {self.y:.2f})"
+```
+

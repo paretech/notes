@@ -59,6 +59,10 @@ git push origin --force --all
 - https://www.atlassian.com/git/articles/core-concept-workflows-and-tips
 - https://www.atlassian.com/git/tutorials/git-submodule
 - https://gchp.readthedocs.io/en/latest/reference/git-submodules.html
+
+# Working with Remote Branches
+
+https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-branch
 - Submodules are static, very static. They don't reference a reference (e.g. branch, tag, etc) they instead reference a specific commit. 
 
 # Subtrees

@@ -408,3 +408,7 @@ class Point(namedtuple('Point', ['x', 'y'])):
         return f"({self.x:.2f}, {self.y:.2f})"
 ```
 
+## Generating Google Slides via API
+
+https://towardsdatascience.com/creating-charts-in-google-slides-with-python-896758e9bc49
+

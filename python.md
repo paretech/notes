@@ -414,6 +414,10 @@ https://towardsdatascience.com/creating-charts-in-google-slides-with-python-8967
 
 ## Uninstall all PIP Installed Packages
 
+```general
+pip uninstall -y -r <(pip freeze)
+```
+
 ```powershell
 pip freeze | ForEach-Object { pip uninstall $_ }
 ```

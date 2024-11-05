@@ -412,3 +412,8 @@ class Point(namedtuple('Point', ['x', 'y'])):
 
 https://towardsdatascience.com/creating-charts-in-google-slides-with-python-896758e9bc49
 
+## Uninstall all PIP Installed Packages
+
+```powershell
+pip freeze | ForEach-Object { pip uninstall $_ }
+```

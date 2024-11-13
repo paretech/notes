@@ -121,6 +121,12 @@ Get-FileHash zaber-motion-lib-linux-amd64.so -Algorithm SHA512 | Format-List
 
 Source: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.4
 
+Get file hash for all files in directory
+
+```powershell
+Get-ChildItem -Path .\ | ForEach-Object {Get-FileHash -Algorithm SHA1 $_}
+```
+
 
 ## Get the target path of a symlink
 

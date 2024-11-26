@@ -19,6 +19,14 @@
 - [Log message include function name, file name, line number (stackoverflow)](https://stackoverflow.com/questions/10973362/python-logging-function-name-file-name-line-number-using-a-single-file)
 - [Community thoughts on custom logger (stackoverflow)](https://stackoverflow.com/questions/1319615/proper-way-to-declare-custom-exceptions-in-modern-python)
 
+### Add Logging to Library
+
+```
+import logging
+log = logging.getLogger(__name__)
+log.addHandler(logging.NullHandler())
+```
+
 ## OpenGL
 - Get into Game Development with Python and OpenGL ([YouTube Playlist](https://www.youtube.com/playlist?list=PLn3eTxaOtL2PDnEVNwOgZFm5xYPr4dUoR), [GitHub Source](https://github.com/amengede/getIntoGameDev/tree/main/pyopengl))
 - [Python & OpenGL for Scientific Visualization (book, author of Glumpy)](https://www.labri.fr/perso/nrougier/python-opengl/)

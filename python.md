@@ -441,3 +441,6 @@ class SingletonMixin:
             cls._instance = super().__new__(cls)
         return cls._instance
 ```
+
+## Style
+- https://google.github.io/styleguide/pyguide.html

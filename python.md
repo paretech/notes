@@ -434,12 +434,34 @@ pip freeze | ForEach-Object { pip uninstall $_ }
 
 ```python
 class SingletonMixin:
+    """Mixin class to make singleton"""
     _instance = None
 
     def __new__(cls, *args, **kwargs):
         if cls._instance is None:
             cls._instance = super().__new__(cls)
         return cls._instance
+```
+
+```python
+def singleton(cls):
+    """Singleton decorator
+
+    Example
+    =======
+
+    ```
+    @singleton
+    class SingletonMyClass(MyClass):
+        pass
+    ```
+    """
+    instances = {}
+    def get_instance(*args, **kwargs):
+        if cls not in instances:
+            instances[cls] = cls(*args, **kwargs)
+        return instances[cls]
+    return get_instance
 ```
 
 ## Style

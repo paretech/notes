@@ -30,3 +30,23 @@
 
 ## Modifications
 - https://stackoverflow.com/questions/42796887/switch-focus-between-editor-and-integrated-terminal
+
+## settings.json
+
+```json
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.enabled": false,
+    "diffEditor.renderSideBySide": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "explicit",
+          "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+      }
+}
+```

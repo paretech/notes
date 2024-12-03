@@ -7,4 +7,6 @@
 - Aliasing
   - https://datagenetics.com/blog/august32013/index.html
   - https://gautamnagrawal.medium.com/rotating-image-by-any-angle-shear-transformation-using-only-numpy-d28d16eb5076
+- Color
+  - https://engineering.purdue.edu/~bouman/ece637/notes/pdf/Tristimulus.pdf
  

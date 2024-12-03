@@ -4,3 +4,6 @@
 
 # Eye Tracking
 https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-73.pdf
+
+## Other Resources
+- https://www.scratchapixel.com/index.html

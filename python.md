@@ -466,3 +466,8 @@ def singleton(cls):
 
 ## Style
 - https://google.github.io/styleguide/pyguide.html
+
+## Defining a Custom Statement (dont do this? :))
+
+- https://stackoverflow.com/questions/214881/can-you-add-new-statements-to-pythons-syntax
+- https://eli.thegreenplace.net/2010/06/30/python-internals-adding-a-new-statement-to-python/

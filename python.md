@@ -364,6 +364,22 @@ def load_object(filepath):
 ## Wheelhouse (i.e. precompiled offline package install)
 https://pip.pypa.io/en/latest/topics/repeatable-installs/#using-a-wheelhouse-aka-installation-bundles
 
+On development machine:
+
+```python
+cd $project_directory
+venv\scripts\activate
+python -m pip wheel -r requirements.txt --wheel-dir=$wheel_directory
+```
+
+On Target Machine
+
+```python
+cd $target_directory
+& $path_to_python -m venv venv
+venv\scripts\activate
+python -m pip install -force-reinstall -no-index -no-deps -find-links $path_to_wheelhouse -r requirements.txt
+```
 
 ## Nested or Multiple (stack) of with/context managers
 Pretty handy! For example if working with a vendor third-party API that has several APIs that need initialized but also need torn down if anything goes wrong. 

@@ -164,6 +164,10 @@ Check to make sure enabled
 Get-ItemPropertyValue -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled"
 ```
 
+See also 
+- https://stackoverflow.com/questions/21194530/what-does-mean-when-prepended-to-a-file-path
+- https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file?redirectedfrom=MSDN#win32-file-namespaces
+
 ## Get Powershell Version
 ```
 $PSVersionTable.PSVersion

@@ -167,6 +167,7 @@ Get-ItemPropertyValue -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" 
 See also 
 - https://stackoverflow.com/questions/21194530/what-does-mean-when-prepended-to-a-file-path
 - https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file?redirectedfrom=MSDN#win32-file-namespaces
+- https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry
 
 ## Get Powershell Version
 ```

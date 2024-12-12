@@ -495,3 +495,7 @@ https://stackoverflow.com/questions/21194530/what-does-mean-when-prepended-to-a-
 ## Generate Stubs (.pyi) from .NET CLR
 
 I've successfully done this before using [McNeel's PythonStubs package](https://github.com/mcneel/pythonstubs).
+
+```sh
+Get-ChildItem -Path "<path_to_vendor_dll_library>" -Include *.dll -File -Recurse -ErrorAction SilentlyContinue | ForEach-Object {.\PyStubbler --dest="<output_dir>"" --search="<path_to_vendor_dll_library>" (Resolve-Path $_).path}
+```

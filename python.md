@@ -489,4 +489,9 @@ def singleton(cls):
 - https://eli.thegreenplace.net/2010/06/30/python-internals-adding-a-new-statement-to-python/
 
 ## Windows Long File Paths
+
 https://stackoverflow.com/questions/21194530/what-does-mean-when-prepended-to-a-file-path
+
+## Generate Stubs (.pyi) from .NET CLR
+
+I've successfully done this before using [McNeel's PythonStubs package](https://github.com/mcneel/pythonstubs).

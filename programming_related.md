@@ -15,3 +15,6 @@
 - https://opensource.com/article/18/1/how-debuggers-work
 - https://refactoring.guru/design-patterns/
   - Easy to digest examples and visual aids. Likely a good introductionary resource. 
+
+# Interesting Reads
+- https://en.wikipedia.org/wiki/List_of_programmers

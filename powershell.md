@@ -115,6 +115,8 @@ subl (Get-PSReadlineOption).HistorySavePath
 
 Source: https://stackoverflow.com/questions/44104043/how-can-i-see-the-command-history-across-all-powershell-sessions-in-windows-serv
 
+This method can also be used to remove specific items from history which prevents them from appearing in autocomplete.
+
 
 ## Get File Hash
 

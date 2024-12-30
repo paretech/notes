@@ -66,3 +66,6 @@ https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-bran
 - Submodules are static, very static. They don't reference a reference (e.g. branch, tag, etc) they instead reference a specific commit. 
 
 # Subtrees
+
+# Clean 
+https://stackoverflow.com/questions/673407/how-do-i-clear-my-local-working-directory-in-git

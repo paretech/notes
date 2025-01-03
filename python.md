@@ -232,8 +232,9 @@ next(iter(find_port(criteria)), None)
 
 ## Low level bit and byte packing (often for hardware interfaces)
 
-- David Beazley cookbook IIRC
-  - https://www.dabeaz.com/py3meta/Py3Meta.pdf
+- "Python Cookbook" 3rd Edition, Chapter 6.12 "Reading Nested and Variable-Sized Binary
+Structures"
+- https://www.dabeaz.com/py3meta/Py3Meta.pdf
 - https://wumb0.in/a-better-way-to-work-with-raw-data-types-in-python.html
 - https://www.colmryan.org/posts/bitfield-nicieties-in-python/
 - https://docs.python.org/3.5/library/ctypes.html#structures-and-unions

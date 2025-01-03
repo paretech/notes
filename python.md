@@ -499,3 +499,10 @@ I've successfully done this before using [McNeel's PythonStubs package](https://
 ```sh
 Get-ChildItem -Path "<path_to_vendor_dll_library>" -Include *.dll -File -Recurse -ErrorAction SilentlyContinue | ForEach-Object {.\PyStubbler --dest="<output_dir>"" --search="<path_to_vendor_dll_library>" (Resolve-Path $_).path}
 ```
+
+
+## Type Hinting
+
+- https://docs.python.org/3/library/typing.html
+- https://www.reddit.com/r/Python/comments/10zdidm/why_type_hinting_sucks/?rdt=64359
+- 

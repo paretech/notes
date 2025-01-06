@@ -1,5 +1,9 @@
 # Windows
 
+## See Also
+
+- [PowerShell](https://github.com/paretech/notes/blob/main/powershell.md)
+
 ## Windows Terminal (WT)
 
 https://github.com/paretech/notes/blob/main/powershell.md#make-powershell-home-with-windows-terminal-and-oh-my-posh
@@ -11,3 +15,10 @@ https://github.com/paretech/notes/blob/main/powershell.md#make-powershell-home-w
 - Explorer Patcher and 7+ Taskbar Tweaker (untested)
 - [Bring back "classic" context menu](https://www.pcgamer.com/windows-11-context-menu-fix-right-click/) (tested, works)
 - Quick Access Toolbar (QAT) gone... Possible [workaround](https://answers.microsoft.com/en-us/windows/forum/all/how-to-restore-classic-ribbon-in-file-manager/99d3ac9c-98c3-46ea-842d-95fda0240e80) (untested)
+
+## Network Packet Capture
+
+This section focuses on performing network packet capture without tools like [Wireshark](https://www.wireshark.org/)
+
+- [Netsh](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj129397(v=ws.11))
+- [Pktmon](https://learn.microsoft.com/en-us/windows-server/networking/technologies/pktmon/pktmon)

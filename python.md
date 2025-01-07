@@ -509,4 +509,9 @@ Get-ChildItem -Path "<path_to_vendor_dll_library>" -Include *.dll -File -Recurse
 
 - https://docs.python.org/3/library/typing.html
 - https://www.reddit.com/r/Python/comments/10zdidm/why_type_hinting_sucks/?rdt=64359
-- 
+
+## Secure Shell (SSH)
+
+- [Paramiko](https://docs.paramiko.org/en/stable/index.html) (low-level)
+- [Fabric](https://github.com/fabric/fabric) (high-level)
+- [Parallel-SSH](https://github.com/ParallelSSH/parallel-ssh)

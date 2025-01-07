@@ -54,6 +54,7 @@ https://www.redhat.com/en/blog/linux-script-command
 ## Terminals, Terminal Emulators, Pseudo Terminals
 
 - https://man7.org/linux/man-pages/man1/stty.1.html
+  - The stty command is used to configure and display terminal line settings, allowing users to control how input and output are handled by the terminal.
   - Line endings, see options ICRNL, INLCR, and IGNCR
 - https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap11.html
   - For better understanding of line endings, see relevant sections under "General Terminal Interface" and "Input Modes" (ch 11).

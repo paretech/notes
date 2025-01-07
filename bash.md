@@ -45,6 +45,8 @@ Source: https://stackoverflow.com/questions/10679807/how-do-i-timestamp-every-pi
 
 ## The "Script" command
 
-Capture a terminal session to file and potentially replay with timing!
+Use the [`script`](https://www.redhat.com/en/blog/linux-script-command) command to capture a terminal session to file and potentially replay with timing!
+
+-  When you want to end and save the file, use Ctrl-D on your keyboard. 
 
 https://www.redhat.com/en/blog/linux-script-command

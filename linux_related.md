@@ -50,3 +50,9 @@ Use the [`script`](https://www.redhat.com/en/blog/linux-script-command) command 
 -  When you want to end and save the file, use Ctrl-D on your keyboard. 
 
 https://www.redhat.com/en/blog/linux-script-command
+
+## Terminals, Terminal Emulators, Pseudo Terminals
+
+- https://man7.org/linux/man-pages/man1/stty.1.html
+- https://www.computerhope.com/unix/ustty.htm
+- https://blog.viktomas.com/graph/new-lines-and-terminals-cr-vs-lf/

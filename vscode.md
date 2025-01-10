@@ -25,9 +25,9 @@
 - Code Runner (Jun Han)
 - Markdown All in One (Yu Zhang)
 - MatlabUnofficial (Xavier Hahn)
+- Todo Tree (Gruntfuggly)
 - Untested
   - [Quick and Simple Text Selection (David Bankier)](https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select)
-  - https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 
 ## Modifications
 - https://stackoverflow.com/questions/42796887/switch-focus-between-editor-and-integrated-terminal

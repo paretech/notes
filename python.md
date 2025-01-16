@@ -514,7 +514,10 @@ Get-ChildItem -Path "<path_to_vendor_dll_library>" -Include *.dll -File -Recurse
 
 - [Paramiko](https://docs.paramiko.org/en/stable/index.html) (low-level)
 - [Fabric](https://github.com/fabric/fabric) (high-level)
-
-  ## Options for dictionary like interfaces for classes
-  https://stackoverflow.com/questions/35282222/in-python-how-do-i-cast-a-class-object-to-a-dict
 - [Parallel-SSH](https://github.com/ParallelSSH/parallel-ssh)
+
+## Posts to review
+- https://stackoverflow.com/questions/35282222/in-python-how-do-i-cast-a-class-object-to-a-dict
+- https://stackoverflow.com/questions/392160/what-are-some-concrete-use-cases-for-metaclasses
+  
+

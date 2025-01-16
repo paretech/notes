@@ -521,3 +521,6 @@ Get-ChildItem -Path "<path_to_vendor_dll_library>" -Include *.dll -File -Recurse
 - https://stackoverflow.com/questions/392160/what-are-some-concrete-use-cases-for-metaclasses
   
 
+## Descriptors
+
+You will see examples online showcasing descriptor logic where the the instance variable name is prefixed with a '_'. These appear to be safe guards so that the value on the instances doesn't shadow class variable associated with the descriptor. However, if you look at David Beezley resources for metaprogramming, you will see him directly modifying the instance dictionary which bypasses the logic associated with triggering descriptor logic. Setattr, getattr will trigger the descriptor logic!

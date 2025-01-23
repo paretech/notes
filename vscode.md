@@ -41,6 +41,8 @@
     "diffEditor.renderSideBySide": true,
     "jupyter.askForKernelRestart": false,
     "jupyter.interactiveWindow.creationMode": "perFile",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 16,
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {

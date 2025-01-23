@@ -207,7 +207,7 @@ dir env: | Select-String -Pattern PATH
 ## List USB Devices
 
 ```
-			- Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match '^USB' }
+Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match '^USB' }
 ```
 			
 From <https://imagescience.com.au/knowledge/checking-usb-device-connections>

@@ -1,4 +1,4 @@
-# Powershell Resources
+![image](https://github.com/user-attachments/assets/0acbe57f-10d5-4a61-986f-3663840164a7)# Powershell Resources
 - https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction
 
 # Powershell Snippets
@@ -203,3 +203,12 @@ Source: https://stackoverflow.com/questions/4426442/unix-tail-equivalent-command
 ```
 dir env: | Select-String -Pattern PATH
 ```
+
+## List USB Devices
+
+```
+			- Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match '^USB' }
+```
+			
+From <https://imagescience.com.au/knowledge/checking-usb-device-connections>
+

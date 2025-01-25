@@ -59,5 +59,9 @@ https://www.redhat.com/en/blog/linux-script-command
 - https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap11.html
   - For better understanding of line endings, see relevant sections under "General Terminal Interface" and "Input Modes" (ch 11).
 - https://www.computerhope.com/unix/ustty.htm
+
+## USB Wifi Network Adapters
+
+- https://github.com/morrownr/USB-WiFi?tab=readme-ov-file
 - https://blog.viktomas.com/graph/new-lines-and-terminals-cr-vs-lf/
 - The term "new line" is more of a conceptual representation of moving to the start of the next line. It can be represented by different character sequences depending on the system (e.g. LF, CR, CRLF). See resources above for additional context.

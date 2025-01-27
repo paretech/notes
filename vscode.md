@@ -38,6 +38,7 @@
 {
     "workbench.colorTheme": "Monokai",
     "editor.minimap.enabled": false,
+    "window.restoreWindows": "all",
     "diffEditor.renderSideBySide": true,
     "jupyter.askForKernelRestart": false,
     "jupyter.interactiveWindow.creationMode": "perFile",

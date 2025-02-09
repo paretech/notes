@@ -528,3 +528,8 @@ You will see examples online showcasing descriptor logic where the the instance 
 ## General Idiom Examples
 
 - [Concatenate integers `int(f"{10}{24}")`](https://stackoverflow.com/questions/12838549/how-can-i-concatenate-two-integers-in-python)
+
+
+## Overiding `__getattr__` and `__setattr__`
+
+Care must be taken to avoid recursion issues... Sometimes using `object.__getattribute__` is useful to bypass custom behavior within newly defined `__getattr__` and `__setattr__`. 

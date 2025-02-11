@@ -9,3 +9,8 @@
 ### Hikes
 
 - [Mt. Washington](https://forecast.weather.gov/MapClick.php?lat=47.4412&lon=-121.6805&unit=0&lg=english&FcstType=graphical)
+
+
+## News
+
+- https://sfdlive.com/

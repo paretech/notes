@@ -39,9 +39,7 @@
     "workbench.colorTheme": "Monokai",
     "editor.minimap.enabled": false,
     "window.restoreWindows": "all",
-    "diffEditor.renderSideBySide": true,
-    "jupyter.askForKernelRestart": false,
-    "jupyter.interactiveWindow.creationMode": "perFile",
+    "window.confirmBeforeClose": "keyboardOnly",
     "workbench.tree.renderIndentGuides": "always",
     "workbench.tree.indent": 16,
     "[python]": {

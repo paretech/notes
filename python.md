@@ -528,6 +528,7 @@ You will see examples online showcasing descriptor logic where the the instance 
 ## General Idiom Examples
 
 - [Concatenate integers `int(f"{10}{24}")`](https://stackoverflow.com/questions/12838549/how-can-i-concatenate-two-integers-in-python)
+- Get first item of a dictionary `next(iter(spam)`
 
 
 ## Overiding `__getattr__` and `__setattr__`

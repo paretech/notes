@@ -12,6 +12,7 @@
 
 - [Format Specification Mini-Language (docs)](https://docs.python.org/3/library/string.html#formatspec)
 - [Format String Syntax (docs)](https://docs.python.org/3/library/string.html#format-string-syntax)
+- [F-Strings](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
 - [No formatted byte literal](https://stackoverflow.com/questions/45360480/is-there-a-formatted-byte-string-literal-in-python-3-6)
 
 ## Logging

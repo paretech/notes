@@ -52,3 +52,8 @@
       }
 }
 ```
+
+## Debug Configuration
+
+- [Output to Debug Console](https://code.visualstudio.com/docs/python/debugging#_console)
+  - See also https://stackoverflow.com/questions/58994940/vscode-python-write-to-debug-console

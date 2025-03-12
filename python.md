@@ -535,3 +535,10 @@ You will see examples online showcasing descriptor logic where the the instance 
 ## Overiding `__getattr__` and `__setattr__`
 
 Care must be taken to avoid recursion issues... Sometimes using `object.__getattribute__` is useful to bypass custom behavior within newly defined `__getattr__` and `__setattr__`. 
+
+
+## Open a Filebrowser
+
+Immediately open a file browser at the first item on path. Great for quick debugging. 
+
+`import sys, os; os.startfile(sys.path[0])`

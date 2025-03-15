@@ -15,6 +15,9 @@ https://github.com/paretech/notes/blob/main/powershell.md#make-powershell-home-w
 - Explorer Patcher and 7+ Taskbar Tweaker (untested)
 - [Bring back "classic" context menu](https://www.pcgamer.com/windows-11-context-menu-fix-right-click/) (tested, works)
 - Quick Access Toolbar (QAT) gone... Possible [workaround](https://answers.microsoft.com/en-us/windows/forum/all/how-to-restore-classic-ribbon-in-file-manager/99d3ac9c-98c3-46ea-842d-95fda0240e80) (untested)
+- Disabled Websearch from Start Menu (i.e., find local items only)
+  - [Regedit method (Tom's Hardware)](https://www.tomshardware.com/how-to/disable-windows-web-search) (tested, works)
+  - [Group Policy Editor method (4sysops)](https://4sysops.com/archives/turn-off-web-search-in-windows-11-using-group-policy/) (tested, works)
 
 ## Network Packet Capture
 

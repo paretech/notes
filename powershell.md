@@ -217,3 +217,6 @@ Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match '^USB' }
 			
 From <https://imagescience.com.au/knowledge/checking-usb-device-connections>
 
+## Current Working Directory
+
+`(Get-Location).path | clip` or `$PWD.path | clip`

@@ -16,5 +16,10 @@
 - https://refactoring.guru/design-patterns/
   - Easy to digest examples and visual aids. Likely a good introductionary resource. 
 
+# Fundamentals
+
+- https://stellar.mit.edu/S/course/6/fa14/6.005/materials.html
+
+
 # Interesting Reads
 - https://en.wikipedia.org/wiki/List_of_programmers

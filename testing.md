@@ -22,3 +22,4 @@
 - https://github.com/espressif/pytest-embedded
 - https://github.com/everypinio/hardpy
 - https://spintop-openhtf.readthedocs.io/en/latest/
+- https://cdn.teledynelecroy.com/files/manuals/qphy-pcie6-tx-rx-im.pdf

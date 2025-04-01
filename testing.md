@@ -21,3 +21,4 @@
 - https://github.com/purpleidea/mgmt/
 - https://github.com/espressif/pytest-embedded
 - https://github.com/everypinio/hardpy
+- https://spintop-openhtf.readthedocs.io/en/latest/

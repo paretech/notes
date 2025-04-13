@@ -12,4 +12,5 @@
 - AR/VR Reviews and Background
   - https://kguttag.com/2024/10/06/meta-orion-ar-glasses-pt-1-waveguides/
   - https://www.meta.com/blog/orion-custom-silicon-chips-ip-blocks-accelerators-ar-algorithms-energy-efficiency-reality-labs/
+  - https://www.meta.com/blog/orion-silicon-carbide-waveguides-ar-glasses-large-field-of-view/
  

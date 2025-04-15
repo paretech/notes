@@ -542,3 +542,7 @@ Care must be taken to avoid recursion issues... Sometimes using `object.__getatt
 Immediately open a file browser at the first item on path. Great for quick debugging. 
 
 `import sys, os; os.startfile(sys.path[0])`
+
+## PyInstaller
+
+- [learn at run-time whether the app is running from source or whether it is bundled (“frozen”)](https://pyinstaller.org/en/stable/runtime-information.html)

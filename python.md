@@ -549,3 +549,7 @@ Use [PyInstaller](https://pyinstaller.org/) to create singe file or single folde
 
 - [learn at run-time whether the app is running from source or whether it is bundled (“frozen”)](https://pyinstaller.org/en/stable/runtime-information.html)
 - [Runtime hooks help the bootloader launch an app](https://pyinstaller.org/en/stable/when-things-go-wrong.html#changing-runtime-behavior)
+- https://docs.python.org/3/faq/gui.html#how-do-i-freeze-tkinter-applications
+- https://pyinstaller.org/en/stable/runtime-information.html
+- https://pyinstaller.org/en/stable/when-things-go-wrong.html#changing-runtime-behavior
+

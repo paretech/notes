@@ -545,4 +545,7 @@ Immediately open a file browser at the first item on path. Great for quick debug
 
 ## PyInstaller
 
+Use [PyInstaller](https://pyinstaller.org/) to create singe file or single folder executables that you can distribute.
+
 - [learn at run-time whether the app is running from source or whether it is bundled (“frozen”)](https://pyinstaller.org/en/stable/runtime-information.html)
+- [Runtime hooks help the bootloader launch an app](https://pyinstaller.org/en/stable/when-things-go-wrong.html#changing-runtime-behavior)

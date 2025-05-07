@@ -109,3 +109,11 @@ Potential use case for these items is for inclusion in presentation
 - [data and image processing MATLAB-Zemax Toolkit (GSC-15151-1)](https://software.nasa.gov/software/GSC-15151-1)
 - [Clumsy](https://github.com/jagt/clumsy) makes your network condition on Windows significantly worse, but in a managed and interactive manner.
 - https://github.com/mabuchilab/Instrumental (multiple lab instrument automation)
+
+# Image Tools
+
+- Gimp
+- Ink Scape
+- [paint.net](https://www.getpaint.net/)
+- [IrfanView](https://www.irfanview.com)
+- [ImageJ](https://imagej.net/ij/)

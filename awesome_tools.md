@@ -117,3 +117,5 @@ Potential use case for these items is for inclusion in presentation
 - [paint.net](https://www.getpaint.net/)
 - [IrfanView](https://www.irfanview.com)
 - [ImageJ](https://imagej.net/ij/)
+- [Imatest](https://www.imatest.com/)
+- [ImageMagick](https://imagemagick.org/index.php)

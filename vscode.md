@@ -61,3 +61,9 @@
 
 - [Output to Debug Console](https://code.visualstudio.com/docs/python/debugging#_console)
   - See also https://stackoverflow.com/questions/58994940/vscode-python-write-to-debug-console
+ 
+## Terminal Fonts
+
+Useful when trying to make VS Code terminal appear as nice as your OS Terminal (e.g. Oh My Posh with Nerd Fonts).
+
+https://code.visualstudio.com/docs/terminal/appearance

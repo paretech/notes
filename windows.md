@@ -25,3 +25,17 @@ This section focuses on performing network packet capture without tools like [Wi
 
 - [Netsh](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj129397(v=ws.11))
 - [Pktmon](https://learn.microsoft.com/en-us/windows-server/networking/technologies/pktmon/pktmon)
+
+## Windows 11 Setup
+
+- Taskbar Settings
+  - Hide search
+  - Taskbar Behavior
+    - Taskbar Alignment: Left
+- System
+  - For Developers
+    - File Explorer
+      - Show file extensions: On
+      - Show hidden and system files: On
+      - Show full path in title bar: On
+      - 

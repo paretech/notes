@@ -38,4 +38,9 @@ This section focuses on performing network packet capture without tools like [Wi
       - Show file extensions: On
       - Show hidden and system files: On
       - Show full path in title bar: On
-      - 
+- Personalization
+ - Colors
+   - Color Mode: Dark
+   - Transparency effects: On
+   - Show accent color on Start and taskbar: Off
+   - Show accent color on title bars and window borders: ON

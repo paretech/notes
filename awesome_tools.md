@@ -119,3 +119,5 @@ Potential use case for these items is for inclusion in presentation
 - [ImageJ](https://imagej.net/ij/)
 - [Imatest](https://www.imatest.com/)
 - [ImageMagick](https://imagemagick.org/index.php)
+- https://github.com/ha5dzs/python-fiducial-tracker
+- https://github.com/wkentaro/labelme

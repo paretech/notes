@@ -121,3 +121,7 @@ Potential use case for these items is for inclusion in presentation
 - [ImageMagick](https://imagemagick.org/index.php)
 - https://github.com/ha5dzs/python-fiducial-tracker
 - https://github.com/wkentaro/labelme
+- [Burns Digital Imaging](http://burnsdigitalimaging.com/)
+  - ImCheck4v2 Analysis Software
+  - Spatial Frequency Response (SFR): sfrmat
+  - Texture MTF

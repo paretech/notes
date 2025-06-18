@@ -13,4 +13,6 @@ by John D. Kelleher (Author)](https://www.amazon.com/dp/0262537559)
 - https://mathacademy.com/
 - https://course.fast.ai/
 - https://www.statlearning.com/
-- 
+- Podcasts
+  - https://www.youtube.com/@ToolUseAI
+    - [Use AI To Build Your Own Tools (ft Manuel Odendahl) - Ep 40](https://www.youtube.com/watch?v=dVJ59dDHoVk)

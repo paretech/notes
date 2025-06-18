@@ -13,6 +13,9 @@ by John D. Kelleher (Author)](https://www.amazon.com/dp/0262537559)
 - https://mathacademy.com/
 - https://course.fast.ai/
 - https://www.statlearning.com/
+- Papers
+  - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+  - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
 - Podcasts
   - https://www.youtube.com/@ToolUseAI
     - [Use AI To Build Your Own Tools (ft Manuel Odendahl) - Ep 40](https://www.youtube.com/watch?v=dVJ59dDHoVk)

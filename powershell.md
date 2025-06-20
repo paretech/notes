@@ -45,6 +45,16 @@ For more tips on finding things, see Doctor Scripto's blog post, https://devblog
 Get-ChildItem -Path .\2.15.4\ -File -Recurse | Select-Object -ExpandProperty FullName
 ```
 
+## Create a local index of a directory
+
+This snippet is really useful when you are on a new team, especially one with a SLOW disorganized LAN drive...
+
+```
+Get-Childitem –Path "\\network_path" -Recurse -File –Force -ErrorAction SilentlyContinue |
+    Select-Object -ExpandProperty FullName |
+    Tee-Object -FilePath ~\filelist.txt
+```
+
 ## "Touch" a File
 ```
 New-Item -Path $PROFILE -Type File -Force

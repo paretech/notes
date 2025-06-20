@@ -21,4 +21,6 @@ by John D. Kelleher (Author)](https://www.amazon.com/dp/0262537559)
     - [Use AI To Build Your Own Tools (ft Manuel Odendahl) - Ep 40](https://www.youtube.com/watch?v=dVJ59dDHoVk)
 - primitive recursive functions vs general recursive functions
 - sycafancy
-
+- Prompt Steering
+  - If there is a better way, tell me by providing alternatives and explaining why.
+  - Correct me when I'm wrong. Don't appologize and explain how I'm wrong.

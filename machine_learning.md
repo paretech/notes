@@ -24,3 +24,11 @@ by John D. Kelleher (Author)](https://www.amazon.com/dp/0262537559)
 - Prompt Steering
   - If there is a better way, tell me by providing alternatives and explaining why.
   - Correct me when I'm wrong. Don't appologize and explain how I'm wrong.
+
+
+## ML/AI Applications
+
+- Dictation
+  - MacWhisper
+
+- 

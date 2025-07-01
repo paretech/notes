@@ -7,6 +7,7 @@
 - https://opentap.io/
 - https://github.com/flojoy-ai/studio
 - https://github.com/LaboratoireMecaniqueLille/crappy
+- https://github.com/mabuchilab/Instrumental
 
 
 # Also Interesting

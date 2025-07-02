@@ -59,6 +59,26 @@ Get-Childitem –Path "\\network_path" -Recurse -File –Force -ErrorAction Sile
 ```
 New-Item -Path $PROFILE -Type File -Force
 ```
+
+You can expand this further by defining a function and adding an alias in your `$PROFILE` file. For example, add the following.
+
+```
+function Touch-File {
+    param (
+        [string]$Path
+    )
+    if (-Not (Test-Path $Path)) {
+        # Create a new file
+        New-Item -ItemType File -Path $Path -Force | Out-Null
+    } else {
+        # Update the last modified timestamp
+        (Get-Item $Path).LastWriteTime = Get-Date
+    }
+}
+# Create an alias for convenience
+Set-Alias touch Touch-File
+```
+
 ## Reload a File
 ```
 . $PROFILE

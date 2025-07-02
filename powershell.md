@@ -62,7 +62,7 @@ New-Item -Path $PROFILE -Type File -Force
 
 You can expand this further by defining a function and adding an alias in your `$PROFILE` file. For example, add the following.
 
-```
+```powershell
 function Touch-File {
     param (
         [string]$Path

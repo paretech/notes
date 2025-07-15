@@ -77,4 +77,8 @@ Run following command then restart MATLAB. After restarting MATLAB, there should
 matlab.internal.licensing.enableBorrowUI(true)
 ```
 
+## File Path Manipulation
 
+- `uigetfile`
+- `[path, stem, extension] = fileparts(fullPath)`
+- `fullPath = fullfile(path, [stem, extension])`

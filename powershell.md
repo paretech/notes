@@ -250,3 +250,11 @@ From <https://imagescience.com.au/knowledge/checking-usb-device-connections>
 ## Current Working Directory
 
 `(Get-Location).path | clip` or `$PWD.path | clip`
+
+## Path Manipulation
+
+Get the name of the parent or current working directory.
+
+```
+$directoryName = Split-Path -Path (Get-Location) -Leaf
+```

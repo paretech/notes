@@ -82,3 +82,8 @@ matlab.internal.licensing.enableBorrowUI(true)
 - `uigetfile`
 - `[path, stem, extension] = fileparts(fullPath)`
 - `fullPath = fullfile(path, [stem, extension])`
+
+## Creating Reusable Libraries
+
+- Create a new folder with name starting with "+" to designate it as a package
+- 

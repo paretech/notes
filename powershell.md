@@ -258,3 +258,7 @@ Get the name of the parent or current working directory.
 ```
 $directoryName = Split-Path -Path (Get-Location) -Leaf
 ```
+
+## Building and Formatting Strings
+
+https://learn.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-string-substitutions?view=powershell-7.5

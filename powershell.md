@@ -22,6 +22,27 @@ Get-ChildItem -Path .\ -Filter *.zip | ForEach-Object -Parallel {Expand-Archive 
 See also https://devblogs.microsoft.com/powershell/powershell-foreach-object-parallel-feature/
 
 
+## Zip All Folders (synchronous)
+
+```PowerShell
+function Zip-Folders {
+    param (
+        [string]$InputDirectory = (Get-Location).Path,
+        [string]$OutputDirectory = (Get-Location).Path
+    )
+    # Get all directories within the input directory
+    $folders = Get-ChildItem -Path $InputDirectory -Directory
+    # Process each folder serially
+    foreach ($folder in $folders) {
+        # Define the path for the output zip file
+        $zipFilePath = Join-Path -Path $OutputDirectory -ChildPath "$($folder.Name).zip"
+        # Create the zip file
+        [System.IO.Compression.ZipFile]::CreateFromDirectory($folder.FullName, $zipFilePath)
+        Write-Host "Zipped $($folder.Name) to $zipFilePath"
+    }
+}
+```
+
 ## Find Files with Size Greater Than
 
 ```

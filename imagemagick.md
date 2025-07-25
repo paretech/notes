@@ -20,3 +20,13 @@ Building on the previous example, tile it to a larger size. First create a 2x2 c
 magick `( -size 64x64 canvas:white canvas:black +append `) `( +clone -flop `) -append -write mpr:sq +delete -size 1024x1024 tile:mpr:sq PNG24:out.png
 ```
 
+## Rotate image
+
+```
+magick in.png -rotate 180 out.png
+```
+
+## Compose images using blending mode
+
+```
+magick composite -compose Darken in1.png in2.png out.png

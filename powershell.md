@@ -289,3 +289,12 @@ https://learn.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everythi
 "When naming your functions in PowerShell, use a Pascal case name with an approved verb and a singular noun. To obtain a list of approved verbs in PowerShell, run Get-Verb. "
 
 Source: https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/09-functions?view=powershell-7.
+
+
+## Building Complex File Lists
+
+Sometimes you need to build a list of files from a folder containing folders with similar folder structure. Here is an example of how to extract a list of images satisfying certain conditions from within that structure
+
+```
+$fancy_image_list = (Get-ChildItem -Path $BasePath -Recurse -Filter "*-1-*.png" | Where-Object {$_.FullName -match '\\images\\type1\\'} | ForEach-Object {$_.FullName}) -join " "
+```

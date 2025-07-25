@@ -283,3 +283,9 @@ $directoryName = Split-Path -Path (Get-Location) -Leaf
 ## Building and Formatting Strings
 
 https://learn.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-string-substitutions?view=powershell-7.5
+
+## Style
+
+"When naming your functions in PowerShell, use a Pascal case name with an approved verb and a singular noun. To obtain a list of approved verbs in PowerShell, run Get-Verb. "
+
+Source: https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/09-functions?view=powershell-7.

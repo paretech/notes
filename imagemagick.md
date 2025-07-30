@@ -30,7 +30,7 @@ magick in.png -rotate 180 out.png
 
 ```
 magick composite -compose Darken in1.png in2.png out.png
-
+```
 
 ## Compose multiple images with different opacities
 

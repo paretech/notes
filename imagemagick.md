@@ -30,3 +30,12 @@ magick in.png -rotate 180 out.png
 
 ```
 magick composite -compose Darken in1.png in2.png out.png
+
+
+## Compose multiple images with different opacities
+
+This recipe is nice when trying to see how multiple images vary (like in camera data collections).
+
+```
+magick `( 1.png -alpha set -channel A -evaluate set 40% +channel `) `( 2.png -alpha set -channel A -evaluate set 40% +channel `) `( 3.png -alpha set -channel A -evaluate set 40% +channel `)  `( 4.png -alpha set -channel A -evaluate set 40% +channel `) -background white -compose dissolve -layers flatten composite_output.png
+```

@@ -9,6 +9,7 @@ https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-73.pdf
 - https://www.scratchapixel.com/index.html
 - https://raytracing.github.io/books/RayTracingInOneWeekend.html
 - https://graphicscodex.com/app/app.html
+- https://blog.demofox.org/2020/05/25/casual-shadertoy-path-tracing-1-basic-camera-diffuse-emissive/
 
 ## AR/VR
 

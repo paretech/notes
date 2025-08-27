@@ -26,6 +26,13 @@ by John D. Kelleher (Author)](https://www.amazon.com/dp/0262537559)
   - Correct me when I'm wrong. Don't appologize and explain how I'm wrong.
   - Provide a migration plan from <a> to <b> by providing a step-by-step approach to allow incremental migration.
 
+Write a "production-ready" docstring for <target> using the Google style guide. The docstring includes:
+
+1.  **Summary line**: A concise one-line description of what the function does
+2.  **Extended description**: More detailed explanation of the function's behavior and logic
+3.  **Args section**: Detailed description of each parameter with types and purposes
+4.  **Returns section**: Description of the return value structure and contents
+5.  **Raises section**: Documentation of the exception that can be raised
 
 ## ML/AI Applications
 

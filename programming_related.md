@@ -24,3 +24,8 @@
 # Interesting Reads
 - https://en.wikipedia.org/wiki/List_of_programmers
 - https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
+
+# Source Control and Code Workflows
+
+- https://newsletter.pragmaticengineer.com/p/stacked-diffs
+- 

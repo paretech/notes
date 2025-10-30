@@ -298,3 +298,13 @@ Sometimes you need to build a list of files from a folder containing folders wit
 ```
 $fancy_image_list = (Get-ChildItem -Path $BasePath -Recurse -Filter "*-1-*.png" | Where-Object {$_.FullName -match '\\images\\type1\\'} | ForEach-Object {$_.FullName}) -join " "
 ```
+
+## Start Powershell
+
+```PowerShell
+# Create with working directory same as CWD
+start powershell
+
+# Create with specified working directory
+start powershell -WorkingDirectory <path>
+```

@@ -21,6 +21,91 @@ docker run --rm -it --name mytemp python:3.12-slim bash
 - **`--rm`:** Clean up after yourself - container disappears when you exit. Without this, you get stopped containers piling up (visible with `docker ps -a`)
 - **`--name mytemp`:** Lets you use `docker exec -it mytemp bash` or `docker stop mytemp` instead of looking up container IDs. Note: name must be unique - you can't run two containers with the same name simultaneously.
 
+### From Interactive Session to Dockerfile (Trust but Verify Workflow)
+
+Now that you know how to create an interactive session, you probably want to start capturing your work to a Dockerfile so it's reproducible. Here's the industry-standard iterative workflow:
+
+**Phase 1: Interactive exploration** (figure out what actually works)
+```bash
+# Start with volume mount so you can access your files
+docker run --rm -it --name mytemp \
+  -v $(pwd):/workspace \
+  -w /workspace \
+  python:3.12-slim bash
+
+# Inside container, manually test commands:
+apt-get update
+apt-get install -y some-package
+pip install pandas numpy
+python test_script.py
+# Take notes of what works!
+```
+
+**Phase 2: Capture to Dockerfile incrementally**
+Create a `Dockerfile` in your project directory and add commands as you verify them:
+```dockerfile
+FROM python:3.12-slim
+
+# Add system packages (clean up apt cache to keep image small)
+RUN apt-get update && apt-get install -y \
+    some-package \
+    another-package \
+ && rm -rf /var/lib/apt/lists/*
+
+# Copy and install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Set working directory
+WORKDIR /app
+
+# Copy your code
+COPY . .
+
+# Optional: Define what runs when container starts
+CMD ["python", "app.py"]
+```
+
+**Phase 3: Build and test the Dockerfile**
+```bash
+# Build image (tag it for easy reference)
+docker build -t myapp:dev .
+
+# Test it works like your interactive session
+docker run --rm -it myapp:dev bash
+
+# Or run your app directly
+docker run --rm myapp:dev
+```
+
+**Phase 4: Iterate - Edit → Build → Test**
+```bash
+# Edit Dockerfile, then rebuild
+docker build -t myapp:dev .
+
+# Docker caches layers! Only rebuilds from changed line down
+# This makes iteration fast
+
+# Test again
+docker run --rm -it myapp:dev bash
+```
+
+**Pro tips for this workflow:**
+- **Layer caching:** Docker caches each RUN/COPY command. Put things that change rarely (system packages) early, things that change often (your code) late.
+- **See build details:** `docker build --progress=plain -t myapp:dev .` shows exactly what each command does
+- **Debug builds:** If build fails, you can inspect the last successful layer to debug
+- **Volume mount during development:** Even with a Dockerfile, you can still mount code to test changes without rebuilding:
+  ```bash
+  docker run --rm -it -v $(pwd):/app myapp:dev bash
+  ```
+
+**Why this workflow works:**
+- ✅ Interactive exploration lets you verify before committing to Dockerfile
+- ✅ Dockerfile becomes your documented, reproducible recipe
+- ✅ Layer caching makes rebuilds fast (only changed parts rebuild)
+- ✅ You can always drop into interactive mode to debug
+- ✅ Final Dockerfile can be versioned in git and shared with team
+
 ### Python Slim Image Explained
 
 **Image format:** `python:3.12-slim`
@@ -40,6 +125,16 @@ docker run --rm -it --name mytemp python:3.12-slim bash
 - Much smaller than standard (saves disk/bandwidth)
 - More compatible than alpine (doesn't break C-based Python packages)
 - Still has package manager (apt) if you need to install system dependencies
+
+**Check image size:**
+```bash
+# See size of all your images
+docker images
+
+# See size of specific image
+docker images python:3.12-slim
+```
+The SIZE column shows the compressed image size on disk.
 
 ## Essential Commands Quick Reference
 

@@ -551,5 +551,27 @@ Use [PyInstaller](https://pyinstaller.org/) to create singe file or single folde
 - [Runtime hooks help the bootloader launch an app](https://pyinstaller.org/en/stable/when-things-go-wrong.html#changing-runtime-behavior)
 - https://docs.python.org/3/faq/gui.html#how-do-i-freeze-tkinter-applications
 - https://pyinstaller.org/en/stable/runtime-information.html
+
+## PyProject.toml
+
+https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+The most minimal PIP installable
+
+```toml
+[build-system]
+requires = ["setuptools"]
+```
+
+The most minimal PIP installable with project "table".
+
+```toml
+[project]
+name = "spam-eggs"
+version = "0"
+
+[build-system]
+requires = ["setuptools"]
+```
 - https://pyinstaller.org/en/stable/when-things-go-wrong.html#changing-runtime-behavior
 

@@ -37,6 +37,7 @@ Write a "production-ready" docstring for <target> using the Google style guide. 
 ## ML/AI Applications
 
 - Dictation
+- MacWhisper
 
 ## LLM Multi-Agent Workflows and Techniques
 
@@ -48,7 +49,4 @@ Write a "production-ready" docstring for <target> using the Google style guide. 
 - https://github.com/li0nel/claude-loop
 - https://blog.sshh.io/p/building-multi-agent-systems
 - https://blog.sshh.io/p/building-multi-agent-systems-part
-
-  - MacWhisper
-
-- 
+- https://www.anthropic.com/engineering/building-effective-agents

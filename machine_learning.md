@@ -53,3 +53,4 @@ Write a "production-ready" docstring for <target> using the Google style guide. 
 - https://www.anthropic.com/engineering/building-effective-agents
   - "When building applications with LLMs, we recommend finding the simplest solution possible, and only increasing complexity when needed. "
   - "Agentic systems often trade latency and cost for better task performance, and you should consider when this tradeoff makes sense."
+- https://github.com/anthropics/claude-cookbooks/tree/main/patterns/agents

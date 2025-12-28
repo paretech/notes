@@ -51,3 +51,4 @@ Write a "production-ready" docstring for <target> using the Google style guide. 
 - https://github.com/humanlayer/humanlayer/blob/main/.claude/commands/create_plan.md
 - https://github.com/li0nel/claude-loop
 - https://www.anthropic.com/engineering/building-effective-agents
+  - "When building applications with LLMs, we recommend finding the simplest solution possible, and only increasing complexity when needed. "

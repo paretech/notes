@@ -53,6 +53,7 @@ Write a "production-ready" docstring for <target> using the Google style guide. 
 - https://www.anthropic.com/engineering/building-effective-agents
   - "When building applications with LLMs, we recommend finding the simplest solution possible, and only increasing complexity when needed. "
   - "Agentic systems often trade latency and cost for better task performance, and you should consider when this tradeoff makes sense."
-  - "Prompt chaining decomposes a task into a sequence of steps, where each LLM call processes the output of the previous one."
+  - "**Prompt chaining** decomposes a task into a sequence of steps, where each LLM call processes the output of the previous one."
   - "[Prompt chaining is] ideal for situations where the task can be easily and cleanly decomposed into fixed subtasks. The main goal is to trade off latency for higher accuracy, by making each LLM call an easier task."
+  - "**Routing** classifies an input and directs it to a specialized followup task. This workflow allows for separation of concerns, and building more specialized prompts. "
 - https://github.com/anthropics/claude-cookbooks/tree/main/patterns/agents

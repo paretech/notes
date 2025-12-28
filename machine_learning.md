@@ -42,11 +42,12 @@ Write a "production-ready" docstring for <target> using the Google style guide. 
 ## LLM Multi-Agent Workflows and Techniques
 
 - https://blog.sshh.io/p/how-i-use-every-claude-code-feature/comments
+  - This was the post that started it all for me. Be sure to checkout the comments, author addresses several questions I had from reading post.
+- https://blog.sshh.io/p/building-multi-agent-systems
+- https://blog.sshh.io/p/building-multi-agent-systems-part
 - https://www.anthropic.com/engineering/multi-agent-research-system
 - https://arxiv.org/abs/2308.00352
 - https://code.claude.com/docs/en/sub-agents
 - https://github.com/humanlayer/humanlayer/blob/main/.claude/commands/create_plan.md
 - https://github.com/li0nel/claude-loop
-- https://blog.sshh.io/p/building-multi-agent-systems
-- https://blog.sshh.io/p/building-multi-agent-systems-part
 - https://www.anthropic.com/engineering/building-effective-agents

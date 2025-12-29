@@ -58,3 +58,4 @@ Write a "production-ready" docstring for <target> using the Google style guide. 
   - "**Routing** classifies an input and directs it to a specialized followup task. This workflow allows for separation of concerns, and building more specialized prompts. "
   - "Routing works well for complex tasks where there are distinct categories that are better handled separately, and where classification can be handled accurately"
 - https://github.com/anthropics/claude-cookbooks/tree/main/patterns/agents
+- [MIL-STD-498](https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114847) superceded by IEEE/EIA 12207

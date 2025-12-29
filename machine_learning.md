@@ -59,3 +59,5 @@ Write a "production-ready" docstring for <target> using the Google style guide. 
   - "Routing works well for complex tasks where there are distinct categories that are better handled separately, and where classification can be handled accurately"
 - https://github.com/anthropics/claude-cookbooks/tree/main/patterns/agents
 - [MIL-STD-498](https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114847) superceded by IEEE/EIA 12207
+- https://www.youtube.com/watch?v=VvkhYWFWaKI
+  - Spend more time specing out the project and mental alignment. Fix these things as far to left as possible. 

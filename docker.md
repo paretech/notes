@@ -66,6 +66,8 @@ COPY . .
 CMD ["python", "app.py"]
 ```
 
+**Note:** The ALL CAPS items (FROM, RUN, WORKDIR, COPY, CMD, etc.) are called **Dockerfile instructions**. Each instruction tells Docker what to do when building the image. For complete reference see: https://docs.docker.com/reference/dockerfile/
+
 **Phase 3: Build and test the Dockerfile**
 ```bash
 # Build image (tag it for easy reference)

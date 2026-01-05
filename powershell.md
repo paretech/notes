@@ -308,3 +308,11 @@ start powershell
 # Create with specified working directory
 start powershell -WorkingDirectory <path>
 ```
+
+## List USB Devices
+
+```PowerShell
+Get-CimInstance Win32_SerialPort |
+    Where-Object { $_.PNPDeviceID -like 'USB*' } |
+    Select-Object Name, DeviceID
+```

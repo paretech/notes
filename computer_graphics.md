@@ -15,3 +15,10 @@ https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-73.pdf
 
 - https://www.degruyter.com/document/doi/10.1515/nanoph-2020-0410/html?lang=en
 - Bernard C. Kress, "Waveguide combiner technologies enabling small form factor mixed reality headset architectures," Proc. SPIE 11876, Optical Instrument Science, Technology, and Applications II, 1187602 (Presented at SPIE Optical Systems Design: September 15, 2021; Published: 14 September 2021); https://doi.org/10.1117/12.2614771.6272519574001.
+
+## Fun and Interesting
+
+- [ASCII Rendering](https://alexharri.com/blog/ascii-rendering)
+  - Impressive article with interactive demonstrations.
+  - Compares relative luminance methods with shape correlation methods
+  - Well written, great technical document example.

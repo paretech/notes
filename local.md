@@ -10,7 +10,7 @@
   - [Stevens Pass - Hourly Weather Forecast Graph (NWS)](https://forecast.weather.gov/MapClick.php?lat=47.7447&lon=-121.0905&unit=0&lg=english&FcstType=graphical)
 - [Local NWS Radar](https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy0xMjIuMTc3LDQ3LjY2MV0sImxvY2F0aW9uIjpudWxsLCJ6b29tIjoxMiwiZmlsdGVyIjpudWxsLCJsYXllciI6InNyX2JyZWYiLCJzdGF0aW9uIjoiS0FUWCJ9LCJhbmltYXRpbmciOmZhbHNlLCJiYXNlIjoic3RhbmRhcmQiLCJhcnRjYyI6ZmFsc2UsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInJmYyI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOnRydWUsIm9wYWNpdHkiOnsiYWxlcnRzIjowLjgsImxvY2FsIjowLjYsImxvY2FsU3RhdGlvbnMiOjAuOCwibmF0aW9uYWwiOjAuNn19)
 
-### Hikes
+## Hikes
 
 - [Mt. Washington](https://forecast.weather.gov/MapClick.php?lat=47.4412&lon=-121.6805&unit=0&lg=english&FcstType=graphical)
 
@@ -19,3 +19,4 @@
 
 - https://sfdlive.com/
 - https://web.seattle.gov/sfd/realtime911/
+- [Worker adjustment and retraining notification (WARN) layoff and closure database](https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-database)

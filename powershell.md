@@ -105,6 +105,11 @@ Set-Alias touch Touch-File
 . $PROFILE
 ```
 
+## Alternate Way to Set Clipboard
+```
+Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard
+```
+
 ## Display all environment variables
 
 ```

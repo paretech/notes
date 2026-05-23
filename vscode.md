@@ -69,3 +69,10 @@
 Useful when trying to make VS Code terminal appear as nice as your OS Terminal (e.g. Oh My Posh with Nerd Fonts).
 
 https://code.visualstudio.com/docs/terminal/appearance
+
+## Odds and Ends
+
+```
+# if the target file is already open in any editor group (split), navigate to it there instead of opening a new tab in the current group
+"workbench.editor.revealIfOpen": true
+```

@@ -78,7 +78,7 @@ if the target file is already open in any editor group (split), navigate to it t
 "workbench.editor.revealIfOpen": true
 ```
 
-Open definition side by side
+Open definition side by side (use in conjunction with ctrl+k F12)
 
 ```json
 "workbench.editor.openSideBySideDirection": "down"  // or "right"

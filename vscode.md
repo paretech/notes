@@ -72,8 +72,14 @@ https://code.visualstudio.com/docs/terminal/appearance
 
 ## Odds and Ends
 
+if the target file is already open in any editor group (split), navigate to it there instead of opening a new tab in the current group
+
 ```json
-# if the target file is already open in any editor group (split),
-# navigate to it there instead of opening a new tab in the current group
 "workbench.editor.revealIfOpen": true
+```
+
+Open definition side by side
+
+```json
+"workbench.editor.openSideBySideDirection": "down"  // or "right"
 ```

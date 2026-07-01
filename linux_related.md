@@ -65,3 +65,13 @@ https://www.redhat.com/en/blog/linux-script-command
 - https://github.com/morrownr/USB-WiFi?tab=readme-ov-file
 - https://blog.viktomas.com/graph/new-lines-and-terminals-cr-vs-lf/
 - The term "new line" is more of a conceptual representation of moving to the start of the next line. It can be represented by different character sequences depending on the system (e.g. LF, CR, CRLF). See resources above for additional context.
+
+## Copy Output Utility
+
+```bash
+# Create script
+echo '#!/bin/zsh\ntee >(pbcopy)' > /usr/local/bin/clip
+
+# Make it executable
+chmod +x /usr/local/bin/clip
+```

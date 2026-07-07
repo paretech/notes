@@ -75,3 +75,12 @@ echo '#!/bin/zsh\ntee >(pbcopy)' > /usr/local/bin/clip
 # Make it executable
 chmod +x /usr/local/bin/clip
 ```
+
+## Identify Recently Connected USB Devices
+
+```bash
+before=$(ioreg -p IOUSB -w 0 | grep -o "+-o .*" | sort); \
+  echo "Plug/unplug now, then press Enter"; read; \
+  ioreg -p IOUSB -w 0 | grep -o "+-o .*" | sort | comm -13 <(echo "$before") -
+```
+

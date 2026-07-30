@@ -20,3 +20,7 @@
 - https://sfdlive.com/
 - https://web.seattle.gov/sfd/realtime911/
 - [Worker adjustment and retraining notification (WARN) layoff and closure database](https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-database)
+
+## Community Development
+
+- https://engagebothell.com/en/projects/downtown-subarea-plan-update

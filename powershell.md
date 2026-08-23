@@ -321,3 +321,28 @@ Get-CimInstance Win32_SerialPort |
     Where-Object { $_.PNPDeviceID -like 'USB*' } |
     Select-Object Name, DeviceID
 ```
+
+## Print Network Interface Summary
+
+```PowerShell
+Get-NetAdapter | ForEach-Object {
+    $adapter = $_
+
+    $profile = Get-NetConnectionProfile -InterfaceIndex $adapter.ifIndex `
+        -ErrorAction SilentlyContinue
+
+    $ipv4 = Get-NetIPAddress -InterfaceIndex $adapter.ifIndex `
+        -AddressFamily IPv4 `
+        -ErrorAction SilentlyContinue |
+        Where-Object { $_.IPAddress -notlike '169.254.*' }
+
+    [PSCustomObject]@{
+        Alias       = $adapter.Name
+        Index       = $adapter.ifIndex
+        Description = $adapter.InterfaceDescription
+        Category    = $profile.NetworkCategory
+        MAC         = $adapter.MacAddress
+        IPv4        = ($ipv4.IPAddress -join ', ')
+    }
+} | Sort-Object Index | Format-Table -AutoSize
+```
